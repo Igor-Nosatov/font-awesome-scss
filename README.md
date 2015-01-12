@@ -48,7 +48,7 @@ ul li:last-child a:before {
 **Less**
 ```less
 .fa {
-  fa();
+  .fa();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -73,7 +73,7 @@ ul li:last-child a:before
 ```
 
 --
-### 2. Size
+### 3. Size
 
 **Sass**
 ```scss
@@ -95,7 +95,7 @@ ul li:last-child a:before {
 **Less**
 ```less
 .fa {
-  fa();
+  .fa();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -124,7 +124,7 @@ ul li:last-child a:before
 ```
 
 --
-###3. Align
+###4. Align
 
 **Sass**
 ```scss
@@ -148,7 +148,7 @@ ul li:last-child a:before {
 ```less
 // top, middle, bottom
 .fa {
-  fa();
+  .fa();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -178,7 +178,7 @@ ul li:last-child a:before
 ```
 
 --
-### 4. Rotated
+### 5. Rotated
 
 **Sass**
 ```scss
@@ -199,7 +199,7 @@ ul li:last-child a:before {
 **Less**
 ```less
 .fa {
-  fa();
+  .fa();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -228,7 +228,7 @@ ul li:last-child a:before
 ```
 
 --
-###5. Flipped
+###6. Flipped
 
 **Sass**
 ```scss
@@ -251,7 +251,7 @@ ul li:last-child a:before {
 ```less
 // horizontal, vertical
 .fa {
-  fa();
+  .fa();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -281,11 +281,12 @@ ul li:last-child a:before
 ```
 
 --
-###6. Spin
+###7. Spin
 **Sass**
 ```scss
 %fa {
   @include fa();
+  @include spin();
 }
 ul li:fist-child a:before {
   @extend fa();
@@ -301,7 +302,8 @@ ul li:last-child a:before {
 **Less**
 ```less
 .fa {
-  fa();
+  .fa();
+  .spin();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -319,6 +321,7 @@ ul li:last-child a:before {
 ```
 .fa
   fa()
+  fa-spin()
 ul li:fist-child a:before
   @extend .fa
   fa(github)
