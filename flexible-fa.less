@@ -1,0 +1,1765 @@
+//
+// Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+// License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+//
+// Flexible Font Awesome (Unofficial) by @dnomak - http://dnomak.com
+//
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flexible-fa() {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Icons
+
+.flexible-fa(@icon) when (@icon = glass) {
+  content: "\f000";
+}
+.flexible-fa(@icon) when (@icon = music) {
+  content: "\f001";
+}
+.flexible-fa(@icon) when (@icon = search) {
+  content: "\f002";
+}
+.flexible-fa(@icon) when (@icon = envelope-o) {
+  content: "\f003";
+}
+.flexible-fa(@icon) when (@icon = heart) {
+  content: "\f004";
+}
+.flexible-fa(@icon) when (@icon = star) {
+  content: "\f005";
+}
+.flexible-fa(@icon) when (@icon = star-o) {
+  content: "\f006";
+}
+.flexible-fa(@icon) when (@icon = user) {
+  content: "\f007";
+}
+.flexible-fa(@icon) when (@icon = film) {
+  content: "\f008";
+}
+.flexible-fa(@icon) when (@icon = th-large) {
+  content: "\f009";
+}
+.flexible-fa(@icon) when (@icon = th) {
+  content: "\f00a";
+}
+.flexible-fa(@icon) when (@icon = th-list) {
+  content: "\f00b";
+}
+.flexible-fa(@icon) when (@icon = check) {
+  content: "\f00c";
+}
+.flexible-fa(@icon) when (@icon = remove) {
+  content: "\f00d";
+}
+.flexible-fa(@icon) when (@icon = close) {
+  content: "\f00d";
+}
+.flexible-fa(@icon) when (@icon = times) {
+  content: "\f00d";
+}
+.flexible-fa(@icon) when (@icon = search-plus) {
+  content: "\f00e";
+}
+.flexible-fa(@icon) when (@icon = search-minus) {
+  content: "\f010";
+}
+.flexible-fa(@icon) when (@icon = power-off) {
+  content: "\f011";
+}
+.flexible-fa(@icon) when (@icon = signal) {
+  content: "\f012";
+}
+.flexible-fa(@icon) when (@icon = gear) {
+  content: "\f013";
+}
+.flexible-fa(@icon) when (@icon = cog) {
+  content: "\f013";
+}
+.flexible-fa(@icon) when (@icon = trash-o) {
+  content: "\f014";
+}
+.flexible-fa(@icon) when (@icon = home) {
+  content: "\f015";
+}
+.flexible-fa(@icon) when (@icon = file-o) {
+  content: "\f016";
+}
+.flexible-fa(@icon) when (@icon = clock-o) {
+  content: "\f017";
+}
+.flexible-fa(@icon) when (@icon = road) {
+  content: "\f018";
+}
+.flexible-fa(@icon) when (@icon = download) {
+  content: "\f019";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-o-down) {
+  content: "\f01a";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-o-up) {
+  content: "\f01b";
+}
+.flexible-fa(@icon) when (@icon = inbox) {
+  content: "\f01c";
+}
+.flexible-fa(@icon) when (@icon = play-circle-o) {
+  content: "\f01d";
+}
+.flexible-fa(@icon) when (@icon = rotate-right) {
+  content: "\f01e";
+}
+.flexible-fa(@icon) when (@icon = repeat) {
+  content: "\f01e";
+}
+.flexible-fa(@icon) when (@icon = refresh) {
+  content: "\f021";
+}
+.flexible-fa(@icon) when (@icon = list-alt) {
+  content: "\f022";
+}
+.flexible-fa(@icon) when (@icon = lock) {
+  content: "\f023";
+}
+.flexible-fa(@icon) when (@icon = flag) {
+  content: "\f024";
+}
+.flexible-fa(@icon) when (@icon = headphones) {
+  content: "\f025";
+}
+.flexible-fa(@icon) when (@icon = volume-off) {
+  content: "\f026";
+}
+.flexible-fa(@icon) when (@icon = volume-down) {
+  content: "\f027";
+}
+.flexible-fa(@icon) when (@icon = volume-up) {
+  content: "\f028";
+}
+.flexible-fa(@icon) when (@icon = qrcode) {
+  content: "\f029";
+}
+.flexible-fa(@icon) when (@icon = barcode) {
+  content: "\f02a";
+}
+.flexible-fa(@icon) when (@icon = tag) {
+  content: "\f02b";
+}
+.flexible-fa(@icon) when (@icon = tags) {
+  content: "\f02c";
+}
+.flexible-fa(@icon) when (@icon = book) {
+  content: "\f02d";
+}
+.flexible-fa(@icon) when (@icon = bookmark) {
+  content: "\f02e";
+}
+.flexible-fa(@icon) when (@icon = print) {
+  content: "\f02f";
+}
+.flexible-fa(@icon) when (@icon = camera) {
+  content: "\f030";
+}
+.flexible-fa(@icon) when (@icon = font) {
+  content: "\f031";
+}
+.flexible-fa(@icon) when (@icon = bold) {
+  content: "\f032";
+}
+.flexible-fa(@icon) when (@icon = italic) {
+  content: "\f033";
+}
+.flexible-fa(@icon) when (@icon = text-height) {
+  content: "\f034";
+}
+.flexible-fa(@icon) when (@icon = text-width) {
+  content: "\f035";
+}
+.flexible-fa(@icon) when (@icon = align-left) {
+  content: "\f036";
+}
+.flexible-fa(@icon) when (@icon = align-center) {
+  content: "\f037";
+}
+.flexible-fa(@icon) when (@icon = align-right) {
+  content: "\f038";
+}
+.flexible-fa(@icon) when (@icon = align-justify) {
+  content: "\f039";
+}
+.flexible-fa(@icon) when (@icon = list) {
+  content: "\f03a";
+}
+.flexible-fa(@icon) when (@icon = dedent) {
+  content: "\f03b";
+}
+.flexible-fa(@icon) when (@icon = outdent) {
+  content: "\f03b";
+}
+.flexible-fa(@icon) when (@icon = indent) {
+  content: "\f03c";
+}
+.flexible-fa(@icon) when (@icon = video-camera) {
+  content: "\f03d";
+}
+.flexible-fa(@icon) when (@icon = photo) {
+  content: "\f03e";
+}
+.flexible-fa(@icon) when (@icon = image) {
+  content: "\f03e";
+}
+.flexible-fa(@icon) when (@icon = picture-o) {
+  content: "\f03e";
+}
+.flexible-fa(@icon) when (@icon = pencil) {
+  content: "\f040";
+}
+.flexible-fa(@icon) when (@icon = map-marker) {
+  content: "\f041";
+}
+.flexible-fa(@icon) when (@icon = adjust) {
+  content: "\f042";
+}
+.flexible-fa(@icon) when (@icon = tint) {
+  content: "\f043";
+}
+.flexible-fa(@icon) when (@icon = edit) {
+  content: "\f044";
+}
+.flexible-fa(@icon) when (@icon = pencil-square-o) {
+  content: "\f044";
+}
+.flexible-fa(@icon) when (@icon = share-square-o) {
+  content: "\f045";
+}
+.flexible-fa(@icon) when (@icon = check-square-o) {
+  content: "\f046";
+}
+.flexible-fa(@icon) when (@icon = arrows) {
+  content: "\f047";
+}
+.flexible-fa(@icon) when (@icon = step-backward) {
+  content: "\f048";
+}
+.flexible-fa(@icon) when (@icon = fast-backward) {
+  content: "\f049";
+}
+.flexible-fa(@icon) when (@icon = backward) {
+  content: "\f04a";
+}
+.flexible-fa(@icon) when (@icon = play) {
+  content: "\f04b";
+}
+.flexible-fa(@icon) when (@icon = pause) {
+  content: "\f04c";
+}
+.flexible-fa(@icon) when (@icon = stop) {
+  content: "\f04d";
+}
+.flexible-fa(@icon) when (@icon = forward) {
+  content: "\f04e";
+}
+.flexible-fa(@icon) when (@icon = fast-forward) {
+  content: "\f050";
+}
+.flexible-fa(@icon) when (@icon = step-forward) {
+  content: "\f051";
+}
+.flexible-fa(@icon) when (@icon = eject) {
+  content: "\f052";
+}
+.flexible-fa(@icon) when (@icon = chevron-left) {
+  content: "\f053";
+}
+.flexible-fa(@icon) when (@icon = chevron-right) {
+  content: "\f054";
+}
+.flexible-fa(@icon) when (@icon = plus-circle) {
+  content: "\f055";
+}
+.flexible-fa(@icon) when (@icon = minus-circle) {
+  content: "\f056";
+}
+.flexible-fa(@icon) when (@icon = times-circle) {
+  content: "\f057";
+}
+.flexible-fa(@icon) when (@icon = check-circle) {
+  content: "\f058";
+}
+.flexible-fa(@icon) when (@icon = question-circle) {
+  content: "\f059";
+}
+.flexible-fa(@icon) when (@icon = info-circle) {
+  content: "\f05a";
+}
+.flexible-fa(@icon) when (@icon = crosshairs) {
+  content: "\f05b";
+}
+.flexible-fa(@icon) when (@icon = times-circle-o) {
+  content: "\f05c";
+}
+.flexible-fa(@icon) when (@icon = check-circle-o) {
+  content: "\f05d";
+}
+.flexible-fa(@icon) when (@icon = ban) {
+  content: "\f05e";
+}
+.flexible-fa(@icon) when (@icon = arrow-left) {
+  content: "\f060";
+}
+.flexible-fa(@icon) when (@icon = arrow-right) {
+  content: "\f061";
+}
+.flexible-fa(@icon) when (@icon = arrow-up) {
+  content: "\f062";
+}
+.flexible-fa(@icon) when (@icon = arrow-down) {
+  content: "\f063";
+}
+.flexible-fa(@icon) when (@icon = mail-forward) {
+  content: "\f064";
+}
+.flexible-fa(@icon) when (@icon = share) {
+  content: "\f064";
+}
+.flexible-fa(@icon) when (@icon = expand) {
+  content: "\f065";
+}
+.flexible-fa(@icon) when (@icon = compress) {
+  content: "\f066";
+}
+.flexible-fa(@icon) when (@icon = plus) {
+  content: "\f067";
+}
+.flexible-fa(@icon) when (@icon = minus) {
+  content: "\f068";
+}
+.flexible-fa(@icon) when (@icon = asterisk) {
+  content: "\f069";
+}
+.flexible-fa(@icon) when (@icon = exclamation-circle) {
+  content: "\f06a";
+}
+.flexible-fa(@icon) when (@icon = gift) {
+  content: "\f06b";
+}
+.flexible-fa(@icon) when (@icon = leaf) {
+  content: "\f06c";
+}
+.flexible-fa(@icon) when (@icon = fire) {
+  content: "\f06d";
+}
+.flexible-fa(@icon) when (@icon = eye) {
+  content: "\f06e";
+}
+.flexible-fa(@icon) when (@icon = eye-slash) {
+  content: "\f070";
+}
+.flexible-fa(@icon) when (@icon = warning) {
+  content: "\f071";
+}
+.flexible-fa(@icon) when (@icon = exclamation-triangle) {
+  content: "\f071";
+}
+.flexible-fa(@icon) when (@icon = plane) {
+  content: "\f072";
+}
+.flexible-fa(@icon) when (@icon = calendar) {
+  content: "\f073";
+}
+.flexible-fa(@icon) when (@icon = random) {
+  content: "\f074";
+}
+.flexible-fa(@icon) when (@icon = comment) {
+  content: "\f075";
+}
+.flexible-fa(@icon) when (@icon = magnet) {
+  content: "\f076";
+}
+.flexible-fa(@icon) when (@icon = chevron-up) {
+  content: "\f077";
+}
+.flexible-fa(@icon) when (@icon = chevron-down) {
+  content: "\f078";
+}
+.flexible-fa(@icon) when (@icon = retweet) {
+  content: "\f079";
+}
+.flexible-fa(@icon) when (@icon = shopping-cart) {
+  content: "\f07a";
+}
+.flexible-fa(@icon) when (@icon = folder) {
+  content: "\f07b";
+}
+.flexible-fa(@icon) when (@icon = folder-open) {
+  content: "\f07c";
+}
+.flexible-fa(@icon) when (@icon = arrows-v) {
+  content: "\f07d";
+}
+.flexible-fa(@icon) when (@icon = arrows-h) {
+  content: "\f07e";
+}
+.flexible-fa(@icon) when (@icon = bar-chart-o) {
+  content: "\f080";
+}
+.flexible-fa(@icon) when (@icon = bar-chart) {
+  content: "\f080";
+}
+.flexible-fa(@icon) when (@icon = twitter-square) {
+  content: "\f081";
+}
+.flexible-fa(@icon) when (@icon = facebook-square) {
+  content: "\f082";
+}
+.flexible-fa(@icon) when (@icon = camera-retro) {
+  content: "\f083";
+}
+.flexible-fa(@icon) when (@icon = key) {
+  content: "\f084";
+}
+.flexible-fa(@icon) when (@icon = gears) {
+  content: "\f085";
+}
+.flexible-fa(@icon) when (@icon = cogs) {
+  content: "\f085";
+}
+.flexible-fa(@icon) when (@icon = comments) {
+  content: "\f086";
+}
+.flexible-fa(@icon) when (@icon = thumbs-o-up) {
+  content: "\f087";
+}
+.flexible-fa(@icon) when (@icon = thumbs-o-down) {
+  content: "\f088";
+}
+.flexible-fa(@icon) when (@icon = star-half) {
+  content: "\f089";
+}
+.flexible-fa(@icon) when (@icon = heart-o) {
+  content: "\f08a";
+}
+.flexible-fa(@icon) when (@icon = sign-out) {
+  content: "\f08b";
+}
+.flexible-fa(@icon) when (@icon = linkedin-square) {
+  content: "\f08c";
+}
+.flexible-fa(@icon) when (@icon = thumb-tack) {
+  content: "\f08d";
+}
+.flexible-fa(@icon) when (@icon = external-link) {
+  content: "\f08e";
+}
+.flexible-fa(@icon) when (@icon = sign-in) {
+  content: "\f090";
+}
+.flexible-fa(@icon) when (@icon = trophy) {
+  content: "\f091";
+}
+.flexible-fa(@icon) when (@icon = github-square) {
+  content: "\f092";
+}
+.flexible-fa(@icon) when (@icon = upload) {
+  content: "\f093";
+}
+.flexible-fa(@icon) when (@icon = lemon-o) {
+  content: "\f094";
+}
+.flexible-fa(@icon) when (@icon = phone) {
+  content: "\f095";
+}
+.flexible-fa(@icon) when (@icon = square-o) {
+  content: "\f096";
+}
+.flexible-fa(@icon) when (@icon = bookmark-o) {
+  content: "\f097";
+}
+.flexible-fa(@icon) when (@icon = phone-square) {
+  content: "\f098";
+}
+.flexible-fa(@icon) when (@icon = twitter) {
+  content: "\f099";
+}
+.flexible-fa(@icon) when (@icon = facebook) {
+  content: "\f09a";
+}
+.flexible-fa(@icon) when (@icon = github) {
+  content: "\f09b";
+}
+.flexible-fa(@icon) when (@icon = unlock) {
+  content: "\f09c";
+}
+.flexible-fa(@icon) when (@icon = credit-card) {
+  content: "\f09d";
+}
+.flexible-fa(@icon) when (@icon = rss) {
+  content: "\f09e";
+}
+.flexible-fa(@icon) when (@icon = hdd-o) {
+  content: "\f0a0";
+}
+.flexible-fa(@icon) when (@icon = bullhorn) {
+  content: "\f0a1";
+}
+.flexible-fa(@icon) when (@icon = bell) {
+  content: "\f0f3";
+}
+.flexible-fa(@icon) when (@icon = certificate) {
+  content: "\f0a3";
+}
+.flexible-fa(@icon) when (@icon = hand-o-right) {
+  content: "\f0a4";
+}
+.flexible-fa(@icon) when (@icon = hand-o-left) {
+  content: "\f0a5";
+}
+.flexible-fa(@icon) when (@icon = hand-o-up) {
+  content: "\f0a6";
+}
+.flexible-fa(@icon) when (@icon = hand-o-down) {
+  content: "\f0a7";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-left) {
+  content: "\f0a8";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-right) {
+  content: "\f0a9";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-up) {
+  content: "\f0aa";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-down) {
+  content: "\f0ab";
+}
+.flexible-fa(@icon) when (@icon = globe) {
+  content: "\f0ac";
+}
+.flexible-fa(@icon) when (@icon = wrench) {
+  content: "\f0ad";
+}
+.flexible-fa(@icon) when (@icon = tasks) {
+  content: "\f0ae";
+}
+.flexible-fa(@icon) when (@icon = filter) {
+  content: "\f0b0";
+}
+.flexible-fa(@icon) when (@icon = briefcase) {
+  content: "\f0b1";
+}
+.flexible-fa(@icon) when (@icon = arrows-alt) {
+  content: "\f0b2";
+}
+.flexible-fa(@icon) when (@icon = group) {
+  content: "\f0c0";
+}
+.flexible-fa(@icon) when (@icon = users) {
+  content: "\f0c0";
+}
+.flexible-fa(@icon) when (@icon = chain) {
+  content: "\f0c1";
+}
+.flexible-fa(@icon) when (@icon = link) {
+  content: "\f0c1";
+}
+.flexible-fa(@icon) when (@icon = cloud) {
+  content: "\f0c2";
+}
+.flexible-fa(@icon) when (@icon = flask) {
+  content: "\f0c3";
+}
+.flexible-fa(@icon) when (@icon = cut) {
+  content: "\f0c4";
+}
+.flexible-fa(@icon) when (@icon = scissors) {
+  content: "\f0c4";
+}
+.flexible-fa(@icon) when (@icon = copy) {
+  content: "\f0c5";
+}
+.flexible-fa(@icon) when (@icon = files-o) {
+  content: "\f0c5";
+}
+.flexible-fa(@icon) when (@icon = paperclip) {
+  content: "\f0c6";
+}
+.flexible-fa(@icon) when (@icon = save) {
+  content: "\f0c7";
+}
+.flexible-fa(@icon) when (@icon = floppy-o) {
+  content: "\f0c7";
+}
+.flexible-fa(@icon) when (@icon = square) {
+  content: "\f0c8";
+}
+.flexible-fa(@icon) when (@icon = navicon) {
+  content: "\f0c9";
+}
+.flexible-fa(@icon) when (@icon = reorder) {
+  content: "\f0c9";
+}
+.flexible-fa(@icon) when (@icon = bars) {
+  content: "\f0c9";
+}
+.flexible-fa(@icon) when (@icon = list-ul) {
+  content: "\f0ca";
+}
+.flexible-fa(@icon) when (@icon = list-ol) {
+  content: "\f0cb";
+}
+.flexible-fa(@icon) when (@icon = strikethrough) {
+  content: "\f0cc";
+}
+.flexible-fa(@icon) when (@icon = underline) {
+  content: "\f0cd";
+}
+.flexible-fa(@icon) when (@icon = table) {
+  content: "\f0ce";
+}
+.flexible-fa(@icon) when (@icon = magic) {
+  content: "\f0d0";
+}
+.flexible-fa(@icon) when (@icon = truck) {
+  content: "\f0d1";
+}
+.flexible-fa(@icon) when (@icon = pinterest) {
+  content: "\f0d2";
+}
+.flexible-fa(@icon) when (@icon = pinterest-square) {
+  content: "\f0d3";
+}
+.flexible-fa(@icon) when (@icon = google-plus-square) {
+  content: "\f0d4";
+}
+.flexible-fa(@icon) when (@icon = google-plus) {
+  content: "\f0d5";
+}
+.flexible-fa(@icon) when (@icon = money) {
+  content: "\f0d6";
+}
+.flexible-fa(@icon) when (@icon = caret-down) {
+  content: "\f0d7";
+}
+.flexible-fa(@icon) when (@icon = caret-up) {
+  content: "\f0d8";
+}
+.flexible-fa(@icon) when (@icon = caret-left) {
+  content: "\f0d9";
+}
+.flexible-fa(@icon) when (@icon = caret-right) {
+  content: "\f0da";
+}
+.flexible-fa(@icon) when (@icon = columns) {
+  content: "\f0db";
+}
+.flexible-fa(@icon) when (@icon = unsorted) {
+  content: "\f0dc";
+}
+.flexible-fa(@icon) when (@icon = sort) {
+  content: "\f0dc";
+}
+.flexible-fa(@icon) when (@icon = sort-down) {
+  content: "\f0dd";
+}
+.flexible-fa(@icon) when (@icon = sort-desc) {
+  content: "\f0dd";
+}
+.flexible-fa(@icon) when (@icon = sort-up) {
+  content: "\f0de";
+}
+.flexible-fa(@icon) when (@icon = sort-asc) {
+  content: "\f0de";
+}
+.flexible-fa(@icon) when (@icon = envelope) {
+  content: "\f0e0";
+}
+.flexible-fa(@icon) when (@icon = linkedin) {
+  content: "\f0e1";
+}
+.flexible-fa(@icon) when (@icon = rotate-left) {
+  content: "\f0e2";
+}
+.flexible-fa(@icon) when (@icon = undo) {
+  content: "\f0e2";
+}
+.flexible-fa(@icon) when (@icon = legal) {
+  content: "\f0e3";
+}
+.flexible-fa(@icon) when (@icon = gavel) {
+  content: "\f0e3";
+}
+.flexible-fa(@icon) when (@icon = dashboard) {
+  content: "\f0e4";
+}
+.flexible-fa(@icon) when (@icon = tachometer) {
+  content: "\f0e4";
+}
+.flexible-fa(@icon) when (@icon = comment-o) {
+  content: "\f0e5";
+}
+.flexible-fa(@icon) when (@icon = comments-o) {
+  content: "\f0e6";
+}
+.flexible-fa(@icon) when (@icon = flash) {
+  content: "\f0e7";
+}
+.flexible-fa(@icon) when (@icon = bolt) {
+  content: "\f0e7";
+}
+.flexible-fa(@icon) when (@icon = sitemap) {
+  content: "\f0e8";
+}
+.flexible-fa(@icon) when (@icon = umbrella) {
+  content: "\f0e9";
+}
+.flexible-fa(@icon) when (@icon = paste) {
+  content: "\f0ea";
+}
+.flexible-fa(@icon) when (@icon = clipboard) {
+  content: "\f0ea";
+}
+.flexible-fa(@icon) when (@icon = lightbulb-o) {
+  content: "\f0eb";
+}
+.flexible-fa(@icon) when (@icon = exchange) {
+  content: "\f0ec";
+}
+.flexible-fa(@icon) when (@icon = cloud-download) {
+  content: "\f0ed";
+}
+.flexible-fa(@icon) when (@icon = cloud-upload) {
+  content: "\f0ee";
+}
+.flexible-fa(@icon) when (@icon = user-md) {
+  content: "\f0f0";
+}
+.flexible-fa(@icon) when (@icon = stethoscope) {
+  content: "\f0f1";
+}
+.flexible-fa(@icon) when (@icon = suitcase) {
+  content: "\f0f2";
+}
+.flexible-fa(@icon) when (@icon = bell-o) {
+  content: "\f0a2";
+}
+.flexible-fa(@icon) when (@icon = coffee) {
+  content: "\f0f4";
+}
+.flexible-fa(@icon) when (@icon = cutlery) {
+  content: "\f0f5";
+}
+.flexible-fa(@icon) when (@icon = file-text-o) {
+  content: "\f0f6";
+}
+.flexible-fa(@icon) when (@icon = building-o) {
+  content: "\f0f7";
+}
+.flexible-fa(@icon) when (@icon = hospital-o) {
+  content: "\f0f8";
+}
+.flexible-fa(@icon) when (@icon = ambulance) {
+  content: "\f0f9";
+}
+.flexible-fa(@icon) when (@icon = medkit) {
+  content: "\f0fa";
+}
+.flexible-fa(@icon) when (@icon = fighter-jet) {
+  content: "\f0fb";
+}
+.flexible-fa(@icon) when (@icon = beer) {
+  content: "\f0fc";
+}
+.flexible-fa(@icon) when (@icon = h-square) {
+  content: "\f0fd";
+}
+.flexible-fa(@icon) when (@icon = plus-square) {
+  content: "\f0fe";
+}
+.flexible-fa(@icon) when (@icon = angle-double-left) {
+  content: "\f100";
+}
+.flexible-fa(@icon) when (@icon = angle-double-right) {
+  content: "\f101";
+}
+.flexible-fa(@icon) when (@icon = angle-double-up) {
+  content: "\f102";
+}
+.flexible-fa(@icon) when (@icon = angle-double-down) {
+  content: "\f103";
+}
+.flexible-fa(@icon) when (@icon = angle-left) {
+  content: "\f104";
+}
+.flexible-fa(@icon) when (@icon = angle-right) {
+  content: "\f105";
+}
+.flexible-fa(@icon) when (@icon = angle-up) {
+  content: "\f106";
+}
+.flexible-fa(@icon) when (@icon = angle-down) {
+  content: "\f107";
+}
+.flexible-fa(@icon) when (@icon = desktop) {
+  content: "\f108";
+}
+.flexible-fa(@icon) when (@icon = laptop) {
+  content: "\f109";
+}
+.flexible-fa(@icon) when (@icon = tablet) {
+  content: "\f10a";
+}
+.flexible-fa(@icon) when (@icon = mobile-phone) {
+  content: "\f10b";
+}
+.flexible-fa(@icon) when (@icon = mobile) {
+  content: "\f10b";
+}
+.flexible-fa(@icon) when (@icon = circle-o) {
+  content: "\f10c";
+}
+.flexible-fa(@icon) when (@icon = quote-left) {
+  content: "\f10d";
+}
+.flexible-fa(@icon) when (@icon = quote-right) {
+  content: "\f10e";
+}
+.flexible-fa(@icon) when (@icon = spinner) {
+  content: "\f110";
+}
+.flexible-fa(@icon) when (@icon = circle) {
+  content: "\f111";
+}
+.flexible-fa(@icon) when (@icon = mail-reply) {
+  content: "\f112";
+}
+.flexible-fa(@icon) when (@icon = reply) {
+  content: "\f112";
+}
+.flexible-fa(@icon) when (@icon = github-alt) {
+  content: "\f113";
+}
+.flexible-fa(@icon) when (@icon = folder-o) {
+  content: "\f114";
+}
+.flexible-fa(@icon) when (@icon = folder-open-o) {
+  content: "\f115";
+}
+.flexible-fa(@icon) when (@icon = smile-o) {
+  content: "\f118";
+}
+.flexible-fa(@icon) when (@icon = frown-o) {
+  content: "\f119";
+}
+.flexible-fa(@icon) when (@icon = meh-o) {
+  content: "\f11a";
+}
+.flexible-fa(@icon) when (@icon = gamepad) {
+  content: "\f11b";
+}
+.flexible-fa(@icon) when (@icon = keyboard-o) {
+  content: "\f11c";
+}
+.flexible-fa(@icon) when (@icon = flag-o) {
+  content: "\f11d";
+}
+.flexible-fa(@icon) when (@icon = flag-checkered) {
+  content: "\f11e";
+}
+.flexible-fa(@icon) when (@icon = terminal) {
+  content: "\f120";
+}
+.flexible-fa(@icon) when (@icon = code) {
+  content: "\f121";
+}
+.flexible-fa(@icon) when (@icon = mail-reply-all) {
+  content: "\f122";
+}
+.flexible-fa(@icon) when (@icon = reply-all) {
+  content: "\f122";
+}
+.flexible-fa(@icon) when (@icon = star-half-empty) {
+  content: "\f123";
+}
+.flexible-fa(@icon) when (@icon = star-half-full) {
+  content: "\f123";
+}
+.flexible-fa(@icon) when (@icon = star-half-o) {
+  content: "\f123";
+}
+.flexible-fa(@icon) when (@icon = location-arrow) {
+  content: "\f124";
+}
+.flexible-fa(@icon) when (@icon = crop) {
+  content: "\f125";
+}
+.flexible-fa(@icon) when (@icon = code-fork) {
+  content: "\f126";
+}
+.flexible-fa(@icon) when (@icon = unlink) {
+  content: "\f127";
+}
+.flexible-fa(@icon) when (@icon = chain-broken) {
+  content: "\f127";
+}
+.flexible-fa(@icon) when (@icon = question) {
+  content: "\f128";
+}
+.flexible-fa(@icon) when (@icon = info) {
+  content: "\f129";
+}
+.flexible-fa(@icon) when (@icon = exclamation) {
+  content: "\f12a";
+}
+.flexible-fa(@icon) when (@icon = superscript) {
+  content: "\f12b";
+}
+.flexible-fa(@icon) when (@icon = subscript) {
+  content: "\f12c";
+}
+.flexible-fa(@icon) when (@icon = eraser) {
+  content: "\f12d";
+}
+.flexible-fa(@icon) when (@icon = puzzle-piece) {
+  content: "\f12e";
+}
+.flexible-fa(@icon) when (@icon = microphone) {
+  content: "\f130";
+}
+.flexible-fa(@icon) when (@icon = microphone-slash) {
+  content: "\f131";
+}
+.flexible-fa(@icon) when (@icon = shield) {
+  content: "\f132";
+}
+.flexible-fa(@icon) when (@icon = calendar-o) {
+  content: "\f133";
+}
+.flexible-fa(@icon) when (@icon = fire-extinguisher) {
+  content: "\f134";
+}
+.flexible-fa(@icon) when (@icon = rocket) {
+  content: "\f135";
+}
+.flexible-fa(@icon) when (@icon = maxcdn) {
+  content: "\f136";
+}
+.flexible-fa(@icon) when (@icon = chevron-circle-left) {
+  content: "\f137";
+}
+.flexible-fa(@icon) when (@icon = chevron-circle-right) {
+  content: "\f138";
+}
+.flexible-fa(@icon) when (@icon = chevron-circle-up) {
+  content: "\f139";
+}
+.flexible-fa(@icon) when (@icon = chevron-circle-down) {
+  content: "\f13a";
+}
+.flexible-fa(@icon) when (@icon = html5) {
+  content: "\f13b";
+}
+.flexible-fa(@icon) when (@icon = css3) {
+  content: "\f13c";
+}
+.flexible-fa(@icon) when (@icon = anchor) {
+  content: "\f13d";
+}
+.flexible-fa(@icon) when (@icon = unlock-alt) {
+  content: "\f13e";
+}
+.flexible-fa(@icon) when (@icon = bullseye) {
+  content: "\f140";
+}
+.flexible-fa(@icon) when (@icon = ellipsis-h) {
+  content: "\f141";
+}
+.flexible-fa(@icon) when (@icon = ellipsis-v) {
+  content: "\f142";
+}
+.flexible-fa(@icon) when (@icon = rss-square) {
+  content: "\f143";
+}
+.flexible-fa(@icon) when (@icon = play-circle) {
+  content: "\f144";
+}
+.flexible-fa(@icon) when (@icon = ticket) {
+  content: "\f145";
+}
+.flexible-fa(@icon) when (@icon = minus-square) {
+  content: "\f146";
+}
+.flexible-fa(@icon) when (@icon = minus-square-o) {
+  content: "\f147";
+}
+.flexible-fa(@icon) when (@icon = level-up) {
+  content: "\f148";
+}
+.flexible-fa(@icon) when (@icon = level-down) {
+  content: "\f149";
+}
+.flexible-fa(@icon) when (@icon = check-square) {
+  content: "\f14a";
+}
+.flexible-fa(@icon) when (@icon = pencil-square) {
+  content: "\f14b";
+}
+.flexible-fa(@icon) when (@icon = external-link-square) {
+  content: "\f14c";
+}
+.flexible-fa(@icon) when (@icon = share-square) {
+  content: "\f14d";
+}
+.flexible-fa(@icon) when (@icon = compass) {
+  content: "\f14e";
+}
+.flexible-fa(@icon) when (@icon = toggle-down) {
+  content: "\f150";
+}
+.flexible-fa(@icon) when (@icon = caret-square-o-down) {
+  content: "\f150";
+}
+.flexible-fa(@icon) when (@icon = toggle-up) {
+  content: "\f151";
+}
+.flexible-fa(@icon) when (@icon = caret-square-o-up) {
+  content: "\f151";
+}
+.flexible-fa(@icon) when (@icon = toggle-right) {
+  content: "\f152";
+}
+.flexible-fa(@icon) when (@icon = caret-square-o-right) {
+  content: "\f152";
+}
+.flexible-fa(@icon) when (@icon = euro) {
+  content: "\f153";
+}
+.flexible-fa(@icon) when (@icon = eur) {
+  content: "\f153";
+}
+.flexible-fa(@icon) when (@icon = gbp) {
+  content: "\f154";
+}
+.flexible-fa(@icon) when (@icon = dollar) {
+  content: "\f155";
+}
+.flexible-fa(@icon) when (@icon = usd) {
+  content: "\f155";
+}
+.flexible-fa(@icon) when (@icon = rupee) {
+  content: "\f156";
+}
+.flexible-fa(@icon) when (@icon = inr) {
+  content: "\f156";
+}
+.flexible-fa(@icon) when (@icon = cny) {
+  content: "\f157";
+}
+.flexible-fa(@icon) when (@icon = rmb) {
+  content: "\f157";
+}
+.flexible-fa(@icon) when (@icon = yen) {
+  content: "\f157";
+}
+.flexible-fa(@icon) when (@icon = jpy) {
+  content: "\f157";
+}
+.flexible-fa(@icon) when (@icon = ruble) {
+  content: "\f158";
+}
+.flexible-fa(@icon) when (@icon = rouble) {
+  content: "\f158";
+}
+.flexible-fa(@icon) when (@icon = rub) {
+  content: "\f158";
+}
+.flexible-fa(@icon) when (@icon = won) {
+  content: "\f159";
+}
+.flexible-fa(@icon) when (@icon = krw) {
+  content: "\f159";
+}
+.flexible-fa(@icon) when (@icon = bitcoin) {
+  content: "\f15a";
+}
+.flexible-fa(@icon) when (@icon = btc) {
+  content: "\f15a";
+}
+.flexible-fa(@icon) when (@icon = file) {
+  content: "\f15b";
+}
+.flexible-fa(@icon) when (@icon = file-text) {
+  content: "\f15c";
+}
+.flexible-fa(@icon) when (@icon = sort-alpha-asc) {
+  content: "\f15d";
+}
+.flexible-fa(@icon) when (@icon = sort-alpha-desc) {
+  content: "\f15e";
+}
+.flexible-fa(@icon) when (@icon = sort-amount-asc) {
+  content: "\f160";
+}
+.flexible-fa(@icon) when (@icon = sort-amount-desc) {
+  content: "\f161";
+}
+.flexible-fa(@icon) when (@icon = sort-numeric-asc) {
+  content: "\f162";
+}
+.flexible-fa(@icon) when (@icon = sort-numeric-desc) {
+  content: "\f163";
+}
+.flexible-fa(@icon) when (@icon = thumbs-up) {
+  content: "\f164";
+}
+.flexible-fa(@icon) when (@icon = thumbs-down) {
+  content: "\f165";
+}
+.flexible-fa(@icon) when (@icon = youtube-square) {
+  content: "\f166";
+}
+.flexible-fa(@icon) when (@icon = youtube) {
+  content: "\f167";
+}
+.flexible-fa(@icon) when (@icon = xing) {
+  content: "\f168";
+}
+.flexible-fa(@icon) when (@icon = xing-square) {
+  content: "\f169";
+}
+.flexible-fa(@icon) when (@icon = youtube-play) {
+  content: "\f16a";
+}
+.flexible-fa(@icon) when (@icon = dropbox) {
+  content: "\f16b";
+}
+.flexible-fa(@icon) when (@icon = stack-overflow) {
+  content: "\f16c";
+}
+.flexible-fa(@icon) when (@icon = instagram) {
+  content: "\f16d";
+}
+.flexible-fa(@icon) when (@icon = flickr) {
+  content: "\f16e";
+}
+.flexible-fa(@icon) when (@icon = adn) {
+  content: "\f170";
+}
+.flexible-fa(@icon) when (@icon = bitbucket) {
+  content: "\f171";
+}
+.flexible-fa(@icon) when (@icon = bitbucket-square) {
+  content: "\f172";
+}
+.flexible-fa(@icon) when (@icon = tumblr) {
+  content: "\f173";
+}
+.flexible-fa(@icon) when (@icon = tumblr-square) {
+  content: "\f174";
+}
+.flexible-fa(@icon) when (@icon = long-arrow-down) {
+  content: "\f175";
+}
+.flexible-fa(@icon) when (@icon = long-arrow-up) {
+  content: "\f176";
+}
+.flexible-fa(@icon) when (@icon = long-arrow-left) {
+  content: "\f177";
+}
+.flexible-fa(@icon) when (@icon = long-arrow-right) {
+  content: "\f178";
+}
+.flexible-fa(@icon) when (@icon = apple) {
+  content: "\f179";
+}
+.flexible-fa(@icon) when (@icon = windows) {
+  content: "\f17a";
+}
+.flexible-fa(@icon) when (@icon = android) {
+  content: "\f17b";
+}
+.flexible-fa(@icon) when (@icon = linux) {
+  content: "\f17c";
+}
+.flexible-fa(@icon) when (@icon = dribbble) {
+  content: "\f17d";
+}
+.flexible-fa(@icon) when (@icon = skype) {
+  content: "\f17e";
+}
+.flexible-fa(@icon) when (@icon = foursquare) {
+  content: "\f180";
+}
+.flexible-fa(@icon) when (@icon = trello) {
+  content: "\f181";
+}
+.flexible-fa(@icon) when (@icon = female) {
+  content: "\f182";
+}
+.flexible-fa(@icon) when (@icon = male) {
+  content: "\f183";
+}
+.flexible-fa(@icon) when (@icon = gittip) {
+  content: "\f184";
+}
+.flexible-fa(@icon) when (@icon = sun-o) {
+  content: "\f185";
+}
+.flexible-fa(@icon) when (@icon = moon-o) {
+  content: "\f186";
+}
+.flexible-fa(@icon) when (@icon = archive) {
+  content: "\f187";
+}
+.flexible-fa(@icon) when (@icon = bug) {
+  content: "\f188";
+}
+.flexible-fa(@icon) when (@icon = vk) {
+  content: "\f189";
+}
+.flexible-fa(@icon) when (@icon = weibo) {
+  content: "\f18a";
+}
+.flexible-fa(@icon) when (@icon = renren) {
+  content: "\f18b";
+}
+.flexible-fa(@icon) when (@icon = pagelines) {
+  content: "\f18c";
+}
+.flexible-fa(@icon) when (@icon = stack-exchange) {
+  content: "\f18d";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-o-right) {
+  content: "\f18e";
+}
+.flexible-fa(@icon) when (@icon = arrow-circle-o-left) {
+  content: "\f190";
+}
+.flexible-fa(@icon) when (@icon = toggle-left) {
+  content: "\f191";
+}
+.flexible-fa(@icon) when (@icon = caret-square-o-left) {
+  content: "\f191";
+}
+.flexible-fa(@icon) when (@icon = dot-circle-o) {
+  content: "\f192";
+}
+.flexible-fa(@icon) when (@icon = wheelchair) {
+  content: "\f193";
+}
+.flexible-fa(@icon) when (@icon = vimeo-square) {
+  content: "\f194";
+}
+.flexible-fa(@icon) when (@icon = turkish-lira) {
+  content: "\f195";
+}
+.flexible-fa(@icon) when (@icon = try) {
+  content: "\f195";
+}
+.flexible-fa(@icon) when (@icon = plus-square-o) {
+  content: "\f196";
+}
+.flexible-fa(@icon) when (@icon = space-shuttle) {
+  content: "\f197";
+}
+.flexible-fa(@icon) when (@icon = slack) {
+  content: "\f198";
+}
+.flexible-fa(@icon) when (@icon = envelope-square) {
+  content: "\f199";
+}
+.flexible-fa(@icon) when (@icon = wordpress) {
+  content: "\f19a";
+}
+.flexible-fa(@icon) when (@icon = openid) {
+  content: "\f19b";
+}
+.flexible-fa(@icon) when (@icon = institution) {
+  content: "\f19c";
+}
+.flexible-fa(@icon) when (@icon = bank) {
+  content: "\f19c";
+}
+.flexible-fa(@icon) when (@icon = university) {
+  content: "\f19c";
+}
+.flexible-fa(@icon) when (@icon = mortar-board) {
+  content: "\f19d";
+}
+.flexible-fa(@icon) when (@icon = graduation-cap) {
+  content: "\f19d";
+}
+.flexible-fa(@icon) when (@icon = yahoo) {
+  content: "\f19e";
+}
+.flexible-fa(@icon) when (@icon = google) {
+  content: "\f1a0";
+}
+.flexible-fa(@icon) when (@icon = reddit) {
+  content: "\f1a1";
+}
+.flexible-fa(@icon) when (@icon = reddit-square) {
+  content: "\f1a2";
+}
+.flexible-fa(@icon) when (@icon = stumbleupon-circle) {
+  content: "\f1a3";
+}
+.flexible-fa(@icon) when (@icon = stumbleupon) {
+  content: "\f1a4";
+}
+.flexible-fa(@icon) when (@icon = delicious) {
+  content: "\f1a5";
+}
+.flexible-fa(@icon) when (@icon = digg) {
+  content: "\f1a6";
+}
+.flexible-fa(@icon) when (@icon = pied-piper) {
+  content: "\f1a7";
+}
+.flexible-fa(@icon) when (@icon = pied-piper-alt) {
+  content: "\f1a8";
+}
+.flexible-fa(@icon) when (@icon = drupal) {
+  content: "\f1a9";
+}
+.flexible-fa(@icon) when (@icon = joomla) {
+  content: "\f1aa";
+}
+.flexible-fa(@icon) when (@icon = language) {
+  content: "\f1ab";
+}
+.flexible-fa(@icon) when (@icon = fax) {
+  content: "\f1ac";
+}
+.flexible-fa(@icon) when (@icon = building) {
+  content: "\f1ad";
+}
+.flexible-fa(@icon) when (@icon = child) {
+  content: "\f1ae";
+}
+.flexible-fa(@icon) when (@icon = paw) {
+  content: "\f1b0";
+}
+.flexible-fa(@icon) when (@icon = spoon) {
+  content: "\f1b1";
+}
+.flexible-fa(@icon) when (@icon = cube) {
+  content: "\f1b2";
+}
+.flexible-fa(@icon) when (@icon = cubes) {
+  content: "\f1b3";
+}
+.flexible-fa(@icon) when (@icon = behance) {
+  content: "\f1b4";
+}
+.flexible-fa(@icon) when (@icon = behance-square) {
+  content: "\f1b5";
+}
+.flexible-fa(@icon) when (@icon = steam) {
+  content: "\f1b6";
+}
+.flexible-fa(@icon) when (@icon = steam-square) {
+  content: "\f1b7";
+}
+.flexible-fa(@icon) when (@icon = recycle) {
+  content: "\f1b8";
+}
+.flexible-fa(@icon) when (@icon = automobile) {
+  content: "\f1b9";
+}
+.flexible-fa(@icon) when (@icon = car) {
+  content: "\f1b9";
+}
+.flexible-fa(@icon) when (@icon = cab) {
+  content: "\f1ba";
+}
+.flexible-fa(@icon) when (@icon = taxi) {
+  content: "\f1ba";
+}
+.flexible-fa(@icon) when (@icon = tree) {
+  content: "\f1bb";
+}
+.flexible-fa(@icon) when (@icon = spotify) {
+  content: "\f1bc";
+}
+.flexible-fa(@icon) when (@icon = deviantart) {
+  content: "\f1bd";
+}
+.flexible-fa(@icon) when (@icon = soundcloud) {
+  content: "\f1be";
+}
+.flexible-fa(@icon) when (@icon = database) {
+  content: "\f1c0";
+}
+.flexible-fa(@icon) when (@icon = file-pdf-o) {
+  content: "\f1c1";
+}
+.flexible-fa(@icon) when (@icon = file-word-o) {
+  content: "\f1c2";
+}
+.flexible-fa(@icon) when (@icon = file-excel-o) {
+  content: "\f1c3";
+}
+.flexible-fa(@icon) when (@icon = file-powerpoint-o) {
+  content: "\f1c4";
+}
+.flexible-fa(@icon) when (@icon = file-photo-o) {
+  content: "\f1c5";
+}
+.flexible-fa(@icon) when (@icon = file-picture-o) {
+  content: "\f1c5";
+}
+.flexible-fa(@icon) when (@icon = file-image-o) {
+  content: "\f1c5";
+}
+.flexible-fa(@icon) when (@icon = file-zip-o) {
+  content: "\f1c6";
+}
+.flexible-fa(@icon) when (@icon = file-archive-o) {
+  content: "\f1c6";
+}
+.flexible-fa(@icon) when (@icon = file-sound-o) {
+  content: "\f1c7";
+}
+.flexible-fa(@icon) when (@icon = file-audio-o) {
+  content: "\f1c7";
+}
+.flexible-fa(@icon) when (@icon = file-movie-o) {
+  content: "\f1c8";
+}
+.flexible-fa(@icon) when (@icon = file-video-o) {
+  content: "\f1c8";
+}
+.flexible-fa(@icon) when (@icon = file-code-o) {
+  content: "\f1c9";
+}
+.flexible-fa(@icon) when (@icon = vine) {
+  content: "\f1ca";
+}
+.flexible-fa(@icon) when (@icon = codepen) {
+  content: "\f1cb";
+}
+.flexible-fa(@icon) when (@icon = jsfiddle) {
+  content: "\f1cc";
+}
+.flexible-fa(@icon) when (@icon = life-bouy) {
+  content: "\f1cd";
+}
+.flexible-fa(@icon) when (@icon = life-buoy) {
+  content: "\f1cd";
+}
+.flexible-fa(@icon) when (@icon = life-saver) {
+  content: "\f1cd";
+}
+.flexible-fa(@icon) when (@icon = support) {
+  content: "\f1cd";
+}
+.flexible-fa(@icon) when (@icon = life-ring) {
+  content: "\f1cd";
+}
+.flexible-fa(@icon) when (@icon = circle-o-notch) {
+  content: "\f1ce";
+}
+.flexible-fa(@icon) when (@icon = ra) {
+  content: "\f1d0";
+}
+.flexible-fa(@icon) when (@icon = rebel) {
+  content: "\f1d0";
+}
+.flexible-fa(@icon) when (@icon = ge) {
+  content: "\f1d1";
+}
+.flexible-fa(@icon) when (@icon = empire) {
+  content: "\f1d1";
+}
+.flexible-fa(@icon) when (@icon = git-square) {
+  content: "\f1d2";
+}
+.flexible-fa(@icon) when (@icon = git) {
+  content: "\f1d3";
+}
+.flexible-fa(@icon) when (@icon = hacker-news) {
+  content: "\f1d4";
+}
+.flexible-fa(@icon) when (@icon = tencent-weibo) {
+  content: "\f1d5";
+}
+.flexible-fa(@icon) when (@icon = qq) {
+  content: "\f1d6";
+}
+.flexible-fa(@icon) when (@icon = wechat) {
+  content: "\f1d7";
+}
+.flexible-fa(@icon) when (@icon = weixin) {
+  content: "\f1d7";
+}
+.flexible-fa(@icon) when (@icon = send) {
+  content: "\f1d8";
+}
+.flexible-fa(@icon) when (@icon = paper-plane) {
+  content: "\f1d8";
+}
+.flexible-fa(@icon) when (@icon = send-o) {
+  content: "\f1d9";
+}
+.flexible-fa(@icon) when (@icon = paper-plane-o) {
+  content: "\f1d9";
+}
+.flexible-fa(@icon) when (@icon = history) {
+  content: "\f1da";
+}
+.flexible-fa(@icon) when (@icon = circle-thin) {
+  content: "\f1db";
+}
+.flexible-fa(@icon) when (@icon = header) {
+  content: "\f1dc";
+}
+.flexible-fa(@icon) when (@icon = paragraph) {
+  content: "\f1dd";
+}
+.flexible-fa(@icon) when (@icon = sliders) {
+  content: "\f1de";
+}
+.flexible-fa(@icon) when (@icon = share-alt) {
+  content: "\f1e0";
+}
+.flexible-fa(@icon) when (@icon = share-alt-square) {
+  content: "\f1e1";
+}
+.flexible-fa(@icon) when (@icon = bomb) {
+  content: "\f1e2";
+}
+.flexible-fa(@icon) when (@icon = soccer-ball-o) {
+  content: "\f1e3";
+}
+.flexible-fa(@icon) when (@icon = futbol-o) {
+  content: "\f1e3";
+}
+.flexible-fa(@icon) when (@icon = tty) {
+  content: "\f1e4";
+}
+.flexible-fa(@icon) when (@icon = binoculars) {
+  content: "\f1e5";
+}
+.flexible-fa(@icon) when (@icon = plug) {
+  content: "\f1e6";
+}
+.flexible-fa(@icon) when (@icon = slideshare) {
+  content: "\f1e7";
+}
+.flexible-fa(@icon) when (@icon = twitch) {
+  content: "\f1e8";
+}
+.flexible-fa(@icon) when (@icon = yelp) {
+  content: "\f1e9";
+}
+.flexible-fa(@icon) when (@icon = newspaper-o) {
+  content: "\f1ea";
+}
+.flexible-fa(@icon) when (@icon = wifi) {
+  content: "\f1eb";
+}
+.flexible-fa(@icon) when (@icon = calculator) {
+  content: "\f1ec";
+}
+.flexible-fa(@icon) when (@icon = paypal) {
+  content: "\f1ed";
+}
+.flexible-fa(@icon) when (@icon = google-wallet) {
+  content: "\f1ee";
+}
+.flexible-fa(@icon) when (@icon = cc-visa) {
+  content: "\f1f0";
+}
+.flexible-fa(@icon) when (@icon = cc-mastercard) {
+  content: "\f1f1";
+}
+.flexible-fa(@icon) when (@icon = cc-discover) {
+  content: "\f1f2";
+}
+.flexible-fa(@icon) when (@icon = cc-amex) {
+  content: "\f1f3";
+}
+.flexible-fa(@icon) when (@icon = cc-paypal) {
+  content: "\f1f4";
+}
+.flexible-fa(@icon) when (@icon = cc-stripe) {
+  content: "\f1f5";
+}
+.flexible-fa(@icon) when (@icon = bell-slash) {
+  content: "\f1f6";
+}
+.flexible-fa(@icon) when (@icon = bell-slash-o) {
+  content: "\f1f7";
+}
+.flexible-fa(@icon) when (@icon = trash) {
+  content: "\f1f8";
+}
+.flexible-fa(@icon) when (@icon = copyright) {
+  content: "\f1f9";
+}
+.flexible-fa(@icon) when (@icon = at) {
+  content: "\f1fa";
+}
+.flexible-fa(@icon) when (@icon = eyedropper) {
+  content: "\f1fb";
+}
+.flexible-fa(@icon) when (@icon = paint-brush) {
+  content: "\f1fc";
+}
+.flexible-fa(@icon) when (@icon = birthday-cake) {
+  content: "\f1fd";
+}
+.flexible-fa(@icon) when (@icon = area-chart) {
+  content: "\f1fe";
+}
+.flexible-fa(@icon) when (@icon = pie-chart) {
+  content: "\f200";
+}
+.flexible-fa(@icon) when (@icon = line-chart) {
+  content: "\f201";
+}
+.flexible-fa(@icon) when (@icon = lastfm) {
+  content: "\f202";
+}
+.flexible-fa(@icon) when (@icon = lastfm-square) {
+  content: "\f203";
+}
+.flexible-fa(@icon) when (@icon = toggle-off) {
+  content: "\f204";
+}
+.flexible-fa(@icon) when (@icon = toggle-on) {
+  content: "\f205";
+}
+.flexible-fa(@icon) when (@icon = bicycle) {
+  content: "\f206";
+}
+.flexible-fa(@icon) when (@icon = bus) {
+  content: "\f207";
+}
+.flexible-fa(@icon) when (@icon = ioxhost) {
+  content: "\f208";
+}
+.flexible-fa(@icon) when (@icon = angellist) {
+  content: "\f209";
+}
+.flexible-fa(@icon) when (@icon = cc) {
+  content: "\f20a";
+}
+.flexible-fa(@icon) when (@icon = shekel) {
+  content: "\f20b";
+}
+.flexible-fa(@icon) when (@icon = sheqel) {
+  content: "\f20b";
+}
+.flexible-fa(@icon) when (@icon = ils) {
+  content: "\f20b";
+}
+.flexible-fa(@icon) when (@icon = meanpath) {
+  content: "\f20c";
+}
+
+// Size
+
+// .fa-lg {
+//   font-size: 1.33333333em;
+//   line-height: 0.75em;
+//   vertical-align: -15%;
+// }
+// .fa-2x {
+//   font-size: 2em;
+// }
+// .fa-3x {
+//   font-size: 3em;
+// }
+// .fa-4x {
+//   font-size: 4em;
+// }
+// .fa-5x {
+//   font-size: 5em;
+// }
+// .fa-fw {
+//   width: 1.28571429em;
+//   text-align: center;
+// }
+
+// Spin
+
+// .fa-spin {
+//   -webkit-animation: fa-spin 2s infinite linear;
+//   animation: fa-spin 2s infinite linear;
+// }
+// @-webkit-keyframes fa-spin {
+//   0% {
+//     -webkit-transform: rotate(0deg);
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotate(359deg);
+//     transform: rotate(359deg);
+//   }
+// }
+// @keyframes fa-spin {
+//   0% {
+//     -webkit-transform: rotate(0deg);
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotate(359deg);
+//     transform: rotate(359deg);
+//   }
+// }
+
+// Rotated & Flipped
+
+// .fa-rotate-90 {
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+//   -webkit-transform: rotate(90deg);
+//   -ms-transform: rotate(90deg);
+//   transform: rotate(90deg);
+// }
+// .fa-rotate-180 {
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+//   -webkit-transform: rotate(180deg);
+//   -ms-transform: rotate(180deg);
+//   transform: rotate(180deg);
+// }
+// .fa-rotate-270 {
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+//   -webkit-transform: rotate(270deg);
+//   -ms-transform: rotate(270deg);
+//   transform: rotate(270deg);
+// }
+
+// .fa-flip-horizontal {
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+//   -webkit-transform: scale(-1, 1);
+//   -ms-transform: scale(-1, 1);
+//   transform: scale(-1, 1);
+// }
+// .fa-flip-vertical {
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+//   -webkit-transform: scale(1, -1);
+//   -ms-transform: scale(1, -1);
+//   transform: scale(1, -1);
+// }
+// :root .fa-rotate-90,
+// :root .fa-rotate-180,
+// :root .fa-rotate-270,
+// :root .fa-flip-horizontal,
+// :root .fa-flip-vertical {
+//   filter: none;
+// }
