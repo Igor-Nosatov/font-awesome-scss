@@ -1,5 +1,5 @@
 #Flexible Font Awesome
-Flexible Font Awesome Unofficial by @dnomak - http://github.com/dnomak
+Flexible Font Awesome Unofficial by dnomak https://github.com/dnomak
 
 ## Using
 
@@ -12,6 +12,7 @@ Flexible Font Awesome Unofficial by @dnomak - http://github.com/dnomak
 ```
 
 ###1. Import
+--
 **Sass**
 ```scss
 @import "flexible-fa";
