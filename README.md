@@ -286,7 +286,7 @@ ul li:last-child a:before
 ```scss
 %fa {
   @include fa();
-  @include spin();
+  @include fa-spin();
 }
 ul li:fist-child a:before {
   @extend fa();
@@ -303,7 +303,7 @@ ul li:last-child a:before {
 ```less
 .fa {
   .fa();
-  .spin();
+  .fa-spin();
 }
 ul li:fist-child a:before {
   &:extend(.fa);
@@ -331,5 +331,5 @@ ul li:last-child a:before
   fa(twitter)
   fa-spin(4s);
 ```
-
-### Flexible Octicons Coming Soon :)
+--
+### Flexible Octicons Coming Soon
