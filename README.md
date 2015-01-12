@@ -121,7 +121,7 @@ ul li:last-child a:before {
   @include fa-spin(4s);
 }
 ```
-
+--
 ## Using Less
 
 ```html
@@ -245,7 +245,7 @@ ul li:last-child a:before {
   .fa-spin(4s);
 }
 ```
-
+--
 ## Using Stylus
 
 ```html
