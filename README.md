@@ -8,11 +8,11 @@ Flexible Font Awesome
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-###1. Import
+####1. Import
 ```scss
 @import "flexible-fa";
 ```
-###2. Icon
+####2. Icon
 ```scss
 %fa {
   @include fa();
@@ -26,7 +26,7 @@ ul li:last-child a:before {
   @include fa(twitter);
 }
 ```
-### 3. Size
+#### 3. Size
 ```scss
 %fa {
   @include fa();
@@ -42,7 +42,7 @@ ul li:last-child a:before {
   @include fa-size(4em);
 }
 ```
-###4. Align
+####4. Align
 ```scss
 // top, middle, bottom
 %fa {
@@ -59,7 +59,7 @@ ul li:last-child a:before {
   @include fa-align(bottom);
 }
 ```
-### 5. Rotated
+#### 5. Rotated
 ```scss
 %fa {
   @include fa();
@@ -74,7 +74,7 @@ ul li:last-child a:before {
   @include fa-rotate(180deg);
 }
 ```
-###6. Flipped
+####6. Flipped
 ```scss
 // horizontal, vertical
 %fa {
@@ -90,7 +90,7 @@ ul li:last-child a:before {
   @include fa-flip(vertical);
 }
 ```
-###7. Spin
+####7. Spin
 ```scss
 %fa {
   @include fa();
@@ -114,11 +114,11 @@ ul li:last-child a:before {
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-###1. Import
+####1. Import
 ```less
 @import "flexible-fa.less";
 ```
-###2. Icon
+####2. Icon
 ```less
 .fa {
   .fa();
@@ -132,7 +132,7 @@ ul li:last-child a:before {
   .fa(twitter);
 }
 ```
-### 3. Size
+#### 3. Size
 ```less
 .fa {
   .fa();
@@ -148,7 +148,7 @@ ul li:last-child a:before {
   .fa-size(4em);
 }
 ```
-###4. Align
+####4. Align
 ```less
 // top, middle, bottom
 .fa {
@@ -165,7 +165,7 @@ ul li:last-child a:before {
   .fa-align(bottom);
 }
 ```
-### 5. Rotated
+#### 5. Rotated
 ```less
 .fa {
   .fa();
@@ -181,7 +181,7 @@ ul li:last-child a:before {
   .fa-rotate(180deg);
 }
 ```
-###6. Flipped
+####6. Flipped
 ```less
 // horizontal, vertical
 .fa {
@@ -198,7 +198,7 @@ ul li:last-child a:before {
   .fa-flip(vertical);
 }
 ```
-###7. Spin
+####7. Spin
 ```less
 .fa {
   .fa();
@@ -223,11 +223,11 @@ ul li:last-child a:before {
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-###1. Import
+####1. Import
 ```
 @import "flexible-fa"
 ```
-###2. Icon
+####2. Icon
 ```
 .fa
   fa()
@@ -238,7 +238,7 @@ ul li:last-child a:before
   @extend .fa
   fa(twitter)
 ```
-### 3. Size
+#### 3. Size
 ```
 .fa
   fa()
@@ -251,7 +251,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-size(4em)
 ```
-###4. Align
+####4. Align
 ```
 // top, middle, bottom
 .fa
@@ -265,7 +265,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-align(bottom)
 ```
-### 5. Rotated
+#### 5. Rotated
 ```
 .fa
   fa()
@@ -278,7 +278,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-rotate(180deg);
 ```
-###6. Flipped
+####6. Flipped
 ```
 // horizontal, vertical
 .fa
@@ -292,7 +292,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-flip(vertical);
 ```
-###7. Spin
+####7. Spin
 ```
 .fa
   fa()
@@ -307,4 +307,4 @@ ul li:last-child a:before
   fa-spin(4s);
 ```
 --
-### Flexible Octicons Coming Soon
+#### Flexible Octicons Coming Soon
