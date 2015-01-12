@@ -1,5 +1,5 @@
 #flexible-fa
-Flexible Font Awesome
+Flexible Font Awesome http://dnomak.com
 
 ## Using Sass
 ```html
