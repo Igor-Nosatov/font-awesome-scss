@@ -1,5 +1,5 @@
-#Flexible Font Awesome
-Flexible Font Awesome Unofficial
+#flexible-fa
+Flexible Font Awesome
 
 ## Using
 
