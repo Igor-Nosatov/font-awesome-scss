@@ -1,5 +1,5 @@
 #Flexible Font Awesome
-Flexible Font Awesome Unofficial by dnomak https://github.com/dnomak
+Flexible Font Awesome Unofficial https://github.com/dnomak
 
 ## Using
 
@@ -331,3 +331,5 @@ ul li:last-child a:before
   fa(twitter)
   fa-spin(4s);
 ```
+
+### Flexible Octicons Coming Soon :)
