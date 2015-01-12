@@ -2,36 +2,35 @@
 Flexible Font Awesome (Unofficial) by [@dnomak](http://github.com/dnomak)
 
 ## Using
-How to use Flexible Font Awesome
 
-###1. Import
-Sass
-```
-@import "flexible-fa";
-```
-
-Less
-```
-@import "flexible-fa.less";
-```
-
-Stylus
-```
-@import "flexible-fa"
-```
-
-### 2. Icon
-
-Html Example
-```
+**Html**
+```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
 
-Sass Example
+###1. Import
+**Sass**
+```scss
+@import "flexible-fa";
 ```
+
+**Less**
+```less
+@import "flexible-fa.less";
+```
+
+**Stylus**
+```
+@import "flexible-fa"
+```
+
+### 2. Icon
+
+**Sass**
+```scss
 %fa {
   @include fa();
 }
@@ -45,8 +44,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 .fa {
   fa();
 }
@@ -60,7 +59,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 .fa
   fa()
@@ -74,8 +73,8 @@ ul li:last-child a:before
 
 ### 2. Size
 
-Sass Example
-```
+**Sass**
+```scss
 %fa {
   @include fa();
 }
@@ -91,8 +90,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 .fa {
   fa();
 }
@@ -108,7 +107,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 .fa
   fa()
@@ -124,8 +123,8 @@ ul li:last-child a:before
 
 ### 3. Align
 
-Sass Example
-```
+**Sass**
+```scss
 // top, middle, bottom
 %fa {
   @include fa();
@@ -142,8 +141,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 // top, middle, bottom
 .fa {
   fa();
@@ -160,7 +159,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 // top, middle, bottom
 .fa
@@ -177,8 +176,8 @@ ul li:last-child a:before
 
 ### 4. Rotated
 
-Sass Example
-```
+**Sass**
+```scss
 %fa {
   @include fa();
 }
@@ -193,8 +192,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 .fa {
   fa();
 }
@@ -210,7 +209,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 .fa
   fa()
@@ -226,8 +225,8 @@ ul li:last-child a:before
 
 ### 5. Flipped
 
-Sass Example
-```
+**Sass**
+```scss
 // horizontal, vertical
 %fa {
   @include fa();
@@ -243,8 +242,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 // horizontal, vertical
 .fa {
   fa();
@@ -261,7 +260,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 // horizontal, vertical
 .fa
@@ -277,8 +276,8 @@ ul li:last-child a:before
 ```
 
 ###6. Spin
-Sass Example
-```
+**Sass**
+```scss
 %fa {
   @include fa();
 }
@@ -293,8 +292,8 @@ ul li:last-child a:before {
 }
 ```
 
-Less Example
-```
+**Less**
+```less
 .fa {
   fa();
 }
@@ -310,7 +309,7 @@ ul li:last-child a:before {
 }
 ```
 
-Stylus Example
+**Stylus**
 ```
 .fa
   fa()
