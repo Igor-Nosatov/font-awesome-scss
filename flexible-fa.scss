@@ -15,7 +15,7 @@
   font-style: normal;
 }
 
-// Icons
+// Icon
 
 @mixin fa($icon: null) {
   @if $icon == null {
