@@ -3,7 +3,7 @@ Flexible Font Awesome Unofficial
 
 ## Using
 
-**Html**
+*Html*
 ```html
 <ul>
   <li><a href="#">Github</a></li>
@@ -12,17 +12,17 @@ Flexible Font Awesome Unofficial
 ```
 --
 ###1. Import
-**Sass**
+*Sass*
 ```scss
 @import "flexible-fa";
 ```
 
-**Less**
+*Less*
 ```less
 @import "flexible-fa.less";
 ```
 
-**Stylus**
+*Stylus*
 ```
 @import "flexible-fa"
 ```
@@ -30,7 +30,7 @@ Flexible Font Awesome Unofficial
 --
 ###2. Icon
 
-**Sass**
+*Sass*
 ```scss
 %fa {
   @include fa();
@@ -45,7 +45,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 .fa {
   .fa();
@@ -60,7 +60,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 .fa
   fa()
@@ -75,7 +75,7 @@ ul li:last-child a:before
 --
 ### 3. Size
 
-**Sass**
+*Sass*
 ```scss
 %fa {
   @include fa();
@@ -92,7 +92,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 .fa {
   .fa();
@@ -109,7 +109,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 .fa
   fa()
@@ -126,7 +126,7 @@ ul li:last-child a:before
 --
 ###4. Align
 
-**Sass**
+*Sass*
 ```scss
 // top, middle, bottom
 %fa {
@@ -144,7 +144,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 // top, middle, bottom
 .fa {
@@ -162,7 +162,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 // top, middle, bottom
 .fa
@@ -180,7 +180,7 @@ ul li:last-child a:before
 --
 ### 5. Rotated
 
-**Sass**
+*Sass*
 ```scss
 %fa {
   @include fa();
@@ -196,7 +196,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 .fa {
   .fa();
@@ -213,7 +213,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 .fa
   fa()
@@ -230,7 +230,7 @@ ul li:last-child a:before
 --
 ###6. Flipped
 
-**Sass**
+*Sass*
 ```scss
 // horizontal, vertical
 %fa {
@@ -247,7 +247,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 // horizontal, vertical
 .fa {
@@ -265,7 +265,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 // horizontal, vertical
 .fa
@@ -282,7 +282,7 @@ ul li:last-child a:before
 
 --
 ###7. Spin
-**Sass**
+*Sass*
 ```scss
 %fa {
   @include fa();
@@ -299,7 +299,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Less**
+*Less*
 ```less
 .fa {
   .fa();
@@ -317,7 +317,7 @@ ul li:last-child a:before {
 }
 ```
 
-**Stylus**
+*Stylus*
 ```
 .fa
   fa()
