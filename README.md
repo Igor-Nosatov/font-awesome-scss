@@ -1,5 +1,5 @@
 #Flexible Font Awesome
-Flexible Font Awesome Unofficial https://github.com/dnomak
+Flexible Font Awesome Unofficial
 
 ## Using
 
