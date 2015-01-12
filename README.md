@@ -2,22 +2,17 @@
 Flexible Font Awesome
 
 ## Using Sass
-
 ```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
---
 ###1. Import
-
 ```scss
 @import "flexible-fa";
 ```
---
 ###2. Icon
-
 ```scss
 %fa {
   @include fa();
@@ -31,9 +26,7 @@ ul li:last-child a:before {
   @include fa(twitter);
 }
 ```
---
 ### 3. Size
-
 ```scss
 %fa {
   @include fa();
@@ -49,9 +42,7 @@ ul li:last-child a:before {
   @include fa-size(4em);
 }
 ```
---
 ###4. Align
-
 ```scss
 // top, middle, bottom
 %fa {
@@ -68,9 +59,7 @@ ul li:last-child a:before {
   @include fa-align(bottom);
 }
 ```
---
 ### 5. Rotated
-
 ```scss
 %fa {
   @include fa();
@@ -85,9 +74,7 @@ ul li:last-child a:before {
   @include fa-rotate(180deg);
 }
 ```
---
 ###6. Flipped
-
 ```scss
 // horizontal, vertical
 %fa {
@@ -103,9 +90,7 @@ ul li:last-child a:before {
   @include fa-flip(vertical);
 }
 ```
---
 ###7. Spin
-
 ```scss
 %fa {
   @include fa();
@@ -121,24 +106,19 @@ ul li:last-child a:before {
   @include fa-spin(4s);
 }
 ```
---
-## Using Less
 
+## Using Less
 ```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
---
 ###1. Import
-
 ```less
 @import "flexible-fa.less";
 ```
---
 ###2. Icon
-
 ```less
 .fa {
   .fa();
@@ -152,9 +132,7 @@ ul li:last-child a:before {
   .fa(twitter);
 }
 ```
---
 ### 3. Size
-
 ```less
 .fa {
   .fa();
@@ -170,9 +148,7 @@ ul li:last-child a:before {
   .fa-size(4em);
 }
 ```
---
 ###4. Align
-
 ```less
 // top, middle, bottom
 .fa {
@@ -189,9 +165,7 @@ ul li:last-child a:before {
   .fa-align(bottom);
 }
 ```
---
 ### 5. Rotated
-
 ```less
 .fa {
   .fa();
@@ -207,9 +181,7 @@ ul li:last-child a:before {
   .fa-rotate(180deg);
 }
 ```
---
 ###6. Flipped
-
 ```less
 // horizontal, vertical
 .fa {
@@ -226,9 +198,7 @@ ul li:last-child a:before {
   .fa-flip(vertical);
 }
 ```
---
 ###7. Spin
-
 ```less
 .fa {
   .fa();
@@ -245,23 +215,19 @@ ul li:last-child a:before {
   .fa-spin(4s);
 }
 ```
---
-## Using Stylus
 
+## Using Stylus
 ```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
---
 ###1. Import
 ```
 @import "flexible-fa"
 ```
---
 ###2. Icon
-
 ```
 .fa
   fa()
@@ -272,9 +238,7 @@ ul li:last-child a:before
   @extend .fa
   fa(twitter)
 ```
---
 ### 3. Size
-
 ```
 .fa
   fa()
@@ -287,9 +251,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-size(4em)
 ```
---
 ###4. Align
-
 ```
 // top, middle, bottom
 .fa
@@ -303,9 +265,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-align(bottom)
 ```
---
 ### 5. Rotated
-
 ```
 .fa
   fa()
@@ -318,9 +278,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-rotate(180deg);
 ```
---
 ###6. Flipped
-
 ```
 // horizontal, vertical
 .fa
@@ -334,9 +292,7 @@ ul li:last-child a:before
   fa(twitter)
   fa-flip(vertical);
 ```
---
 ###7. Spin
-
 ```
 .fa
   fa()
