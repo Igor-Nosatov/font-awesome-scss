@@ -10,9 +10,8 @@ Flexible Font Awesome Unofficial by dnomak https://github.com/dnomak
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-
-###1. Import
 --
+###1. Import
 **Sass**
 ```scss
 @import "flexible-fa";
@@ -28,7 +27,8 @@ Flexible Font Awesome Unofficial by dnomak https://github.com/dnomak
 @import "flexible-fa"
 ```
 
-### 2. Icon
+--
+###2. Icon
 
 **Sass**
 ```scss
@@ -72,6 +72,7 @@ ul li:last-child a:before
   fa(twitter)
 ```
 
+--
 ### 2. Size
 
 **Sass**
@@ -122,7 +123,8 @@ ul li:last-child a:before
   fa-size(4em)
 ```
 
-### 3. Align
+--
+###3. Align
 
 **Sass**
 ```scss
@@ -175,6 +177,7 @@ ul li:last-child a:before
   fa-align(bottom)
 ```
 
+--
 ### 4. Rotated
 
 **Sass**
@@ -224,7 +227,8 @@ ul li:last-child a:before
   fa-rotate(180deg);
 ```
 
-### 5. Flipped
+--
+###5. Flipped
 
 **Sass**
 ```scss
@@ -276,6 +280,7 @@ ul li:last-child a:before
   fa-flip(vertical);
 ```
 
+--
 ###6. Spin
 **Sass**
 ```scss
