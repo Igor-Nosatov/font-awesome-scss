@@ -5,6 +5,8 @@
 // Flexible Font Awesome (Unofficial) by @dnomak - http://dnomak.com
 //
 
+// Font Path
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('fonts/fontawesome-webfont.eot?v=4.2.0');
@@ -13,6 +15,8 @@
   font-style: normal;
 }
 
+// Icons
+
 .flexible-fa() {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -20,10 +24,8 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
 }
-
-// Icons
-
 .flexible-fa(@icon) when (@icon = glass) {
   content: "\f000";
 }
@@ -1674,92 +1676,62 @@
 
 // Size
 
-// .fa-lg {
-//   font-size: 1.33333333em;
-//   line-height: 0.75em;
-//   vertical-align: -15%;
-// }
-// .fa-2x {
-//   font-size: 2em;
-// }
-// .fa-3x {
-//   font-size: 3em;
-// }
-// .fa-4x {
-//   font-size: 4em;
-// }
-// .fa-5x {
-//   font-size: 5em;
-// }
-// .fa-fw {
-//   width: 1.28571429em;
-//   text-align: center;
-// }
+.flexible-fa-size(@size) {
+  font-size: @size;
+}
+
+// Align
+
+.flexible-fa-align(@align) {
+  vertical-align: @align;
+}
+
+// Rotated
+
+.flexible-fa-rotate(@deg) {
+  -webkit-transform: rotate(@deg);
+  -ms-transform: rotate(@deg);
+  transform: rotate(@deg);
+}
+
+// Flipped
+
+.flexible-fa-flip(@flip) when (@flip = horizontal) {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.flexible-fa-flip(@flip) when (@flip = vertical) {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
 
 // Spin
 
-// .fa-spin {
-//   -webkit-animation: fa-spin 2s infinite linear;
-//   animation: fa-spin 2s infinite linear;
-// }
-// @-webkit-keyframes fa-spin {
-//   0% {
-//     -webkit-transform: rotate(0deg);
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     -webkit-transform: rotate(359deg);
-//     transform: rotate(359deg);
-//   }
-// }
-// @keyframes fa-spin {
-//   0% {
-//     -webkit-transform: rotate(0deg);
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     -webkit-transform: rotate(359deg);
-//     transform: rotate(359deg);
-//   }
-// }
-
-// Rotated & Flipped
-
-// .fa-rotate-90 {
-//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-//   -webkit-transform: rotate(90deg);
-//   -ms-transform: rotate(90deg);
-//   transform: rotate(90deg);
-// }
-// .fa-rotate-180 {
-//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-//   -webkit-transform: rotate(180deg);
-//   -ms-transform: rotate(180deg);
-//   transform: rotate(180deg);
-// }
-// .fa-rotate-270 {
-//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-//   -webkit-transform: rotate(270deg);
-//   -ms-transform: rotate(270deg);
-//   transform: rotate(270deg);
-// }
-
-// .fa-flip-horizontal {
-//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-//   -webkit-transform: scale(-1, 1);
-//   -ms-transform: scale(-1, 1);
-//   transform: scale(-1, 1);
-// }
-// .fa-flip-vertical {
-//   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-//   -webkit-transform: scale(1, -1);
-//   -ms-transform: scale(1, -1);
-//   transform: scale(1, -1);
-// }
-// :root .fa-rotate-90,
-// :root .fa-rotate-180,
-// :root .fa-rotate-270,
-// :root .fa-flip-horizontal,
-// :root .fa-flip-vertical {
-//   filter: none;
-// }
+.flexible-fa-spin() {
+  @-webkit-keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+}
+.flexible-fa-spin(@time) {
+  -webkit-animation: fa-spin @time infinite linear;
+  animation: fa-spin @time infinite linear;
+}
