@@ -17,7 +17,7 @@ Flexible Font Awesome by @dnomak · http://dnomak.com
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
 }
