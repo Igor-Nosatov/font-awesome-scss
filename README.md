@@ -17,7 +17,7 @@ Flexible Font Awesome by @dnomak · http://dnomak.com
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
 }
@@ -31,7 +31,7 @@ ul li:last-child a:before {
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
   @include fa-size(2em);
@@ -48,7 +48,7 @@ ul li:last-child a:before {
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
   @include fa-align(top);
@@ -64,7 +64,7 @@ ul li:last-child a:before {
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
   @include fa-rotate(90deg);
@@ -80,7 +80,7 @@ ul li:last-child a:before {
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
   @include fa-flip(horizontal);
@@ -95,7 +95,7 @@ ul li:last-child a:before {
 %fa {
   @include fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   @extend fa();
   @include fa(github);
   @include fa-spin(2s);
@@ -122,7 +122,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
 }
@@ -136,7 +136,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
   .fa-size(2em);
@@ -153,7 +153,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
   .fa-align(top);
@@ -169,7 +169,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
   .fa-rotate(90deg);
@@ -186,7 +186,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
   .fa-flip(horizontal);
@@ -202,7 +202,7 @@ ul li:last-child a:before {
 .fa {
   .fa();
 }
-ul li:fist-child a:before {
+ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
   .fa-spin(2s);
@@ -229,7 +229,7 @@ ul li:last-child a:before {
 ```
 .fa
   fa()
-ul li:fist-child a:before
+ul li:first-child a:before
   @extend .fa
   fa(github)
 ul li:last-child a:before
