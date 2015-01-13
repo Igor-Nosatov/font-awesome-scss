@@ -1157,22 +1157,20 @@ fa-flip(flip)
 
 // Spin
 
-fa-spin(time = false)
-  if time == false
-    @-webkit-keyframes fa-spin
-      0%
-        -webkit-transform rotate(0deg)
-        transform rotate(0deg)
-      100%
-        -webkit-transform rotate(359deg)
-        transform rotate(359deg)
-    @keyframes fa-spin
-      0%
-        -webkit-transform rotate(0deg)
-        transform rotate(0deg)
-      100%
-        -webkit-transform rotate(359deg)
-        transform rotate(359deg)
-  else
+@-webkit-keyframes fa-spin
+  0%
+    -webkit-transform rotate(0deg)
+    transform rotate(0deg)
+  100%
+    -webkit-transform rotate(359deg)
+    transform rotate(359deg)
+@keyframes fa-spin
+  0%
+    -webkit-transform rotate(0deg)
+    transform rotate(0deg)
+  100%
+    -webkit-transform rotate(359deg)
+    transform rotate(359deg)
+fa-spin(time)
     -webkit-animation: fa-spin time infinite linear;
     animation: fa-spin time infinite linear;
