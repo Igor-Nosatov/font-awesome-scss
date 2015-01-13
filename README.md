@@ -2,16 +2,18 @@
 Flexible Font Awesome by @dnomak · http://dnomak.com
 
 ## Using Sass
+####Import
+```scss
+@import "flexible-fa";
+```
+####Html
 ```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-####Import
-```scss
-@import "flexible-fa";
-```
+
 ####1. Icon
 CodePen · http://codepen.io/dnomak/pen/EaWKmr
 ```scss
