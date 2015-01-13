@@ -13,6 +13,7 @@ Flexible Font Awesome by @dnomak · http://dnomak.com
 @import "flexible-fa";
 ```
 ####1. Icon
+CodePen · http://codepen.io/dnomak/pen/EaWKmr
 ```scss
 %fa {
   @include fa();
@@ -26,8 +27,8 @@ ul li:last-child a:before {
   @include fa(twitter);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/EaWKmr
 #### 2. Size
+CodePen · http://codepen.io/dnomak/pen/ByWKYR
 ```scss
 %fa {
   @include fa();
@@ -43,8 +44,8 @@ ul li:last-child a:before {
   @include fa(twitter);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/ByWKYR
 ####3. Align
+CodePen · http://codepen.io/dnomak/pen/RNpaMR
 ```scss
 %fa {
   @include fa();
@@ -61,8 +62,9 @@ ul li:last-child a:before {
   @include fa-align(bottom);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/RNpaMR
+
 ####4. Rotated
+CodePen · http://codepen.io/dnomak/pen/pveyLK
 ```scss
 %fa {
   @include fa();
@@ -78,8 +80,9 @@ ul li:last-child a:before {
   @include fa-rotate(180deg);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/pveyLK
+
 ####5. Flipped
+CodePen · http://codepen.io/dnomak/pen/JoWXBP
 ```scss
 %fa {
   @include fa();
@@ -95,8 +98,9 @@ ul li:last-child a:before {
   @include fa-flip(vertical);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/JoWXBP
+
 ####6. Spin
+CodePen · http://codepen.io/dnomak/pen/QwpNBm
 ```scss
 %fa {
   @include fa();
@@ -112,7 +116,6 @@ ul li:last-child a:before {
   @include fa-spin(5s);
 }
 ```
-CodePen · http://codepen.io/dnomak/pen/QwpNBm
 
 ## Using Less
 ```html
