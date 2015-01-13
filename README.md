@@ -8,103 +8,111 @@ Flexible Font Awesome by @dnomak · http://dnomak.com
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-####1. Import
+####Import
 ```scss
 @import "flexible-fa";
 ```
-####2. Icon
+####1. Icon
 ```scss
 %fa {
   @include fa();
 }
 ul li:first-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(github);
 }
 ul li:last-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(twitter);
 }
 ```
-#### 3. Size
+CodePen · http://codepen.io/dnomak/pen/EaWKmr
+#### 2. Size
 ```scss
 %fa {
   @include fa();
-}
-ul li:first-child a:before {
-  @extend fa();
-  @include fa(github);
   @include fa-size(2em);
 }
+ul li:first-child a:before {
+  @extend %fa;
+  @include fa(github);
+
+}
 ul li:last-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(twitter);
-  @include fa-size(4em);
 }
 ```
-####4. Align
+CodePen · http://codepen.io/dnomak/pen/ByWKYR
+####3. Align
 ```scss
-// top, middle, bottom
 %fa {
   @include fa();
+  @include fa-size(2em);
 }
 ul li:first-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(github);
   @include fa-align(top);
 }
 ul li:last-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(twitter);
   @include fa-align(bottom);
 }
 ```
-#### 5. Rotated
+CodePen · http://codepen.io/dnomak/pen/RNpaMR
+####4. Rotated
 ```scss
 %fa {
   @include fa();
 }
 ul li:first-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(github);
   @include fa-rotate(90deg);
 }
 ul li:last-child a:before {
-  @extend fa();
+  @extend %fa;
+  @include fa(twitter);
   @include fa-rotate(180deg);
 }
 ```
-####6. Flipped
+CodePen · http://codepen.io/dnomak/pen/pveyLK
+####5. Flipped
 ```scss
-// horizontal, vertical
 %fa {
   @include fa();
 }
 ul li:first-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(github);
   @include fa-flip(horizontal);
 }
 ul li:last-child a:before {
-  @extend fa();
+  @extend %fa;
+  @include fa(twitter);
   @include fa-flip(vertical);
 }
 ```
-####7. Spin
+CodePen · http://codepen.io/dnomak/pen/JoWXBP
+####6. Spin
 ```scss
 %fa {
   @include fa();
 }
 ul li:first-child a:before {
-  @extend fa();
+  @extend %fa;
   @include fa(github);
-  @include fa-spin(2s);
+  @include fa-spin(1s);
 }
 ul li:last-child a:before {
-  @extend fa();
-  @include fa-spin(4s);
+  @extend %fa;
+  @include fa(twitter);
+  @include fa-spin(5s);
 }
 ```
+CodePen · http://codepen.io/dnomak/pen/QwpNBm
 
 ## Using Less
 ```html
