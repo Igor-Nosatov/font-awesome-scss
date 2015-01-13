@@ -2,10 +2,12 @@
 Flexible Font Awesome by @dnomak · http://dnomak.com
 
 ## Using Sass
+
 ####Import
 ```scss
 @import "flexible-fa";
 ```
+
 ####Html
 ```html
 <ul>
@@ -120,17 +122,22 @@ ul li:last-child a:before {
 ```
 
 ## Using Less
+
+####Import
+```less
+@import "flexible-fa.less";
+```
+
+####Html
 ```html
 <ul>
   <li><a href="#">Github</a></li>
   <li><a href="#">Twitter</a></li>
 </ul>
 ```
-####1. Import
-```less
-@import "flexible-fa.less";
-```
-####2. Icon
+
+####1. Icon
+CodePen · http://codepen.io/dnomak/pen/JoWKoY
 ```less
 .fa {
   .fa();
@@ -144,27 +151,29 @@ ul li:last-child a:before {
   .fa(twitter);
 }
 ```
-#### 3. Size
+#### 2. Size
+CodePen · http://codepen.io/dnomak/pen/OPpXVz
 ```less
 .fa {
   .fa();
-}
-ul li:first-child a:before {
-  &:extend(.fa);
-  .fa(github);
   .fa-size(2em);
 }
+ul li:first-child a:before {
+  &:extend(.fa);
+  .fa(github);
+
+}
 ul li:last-child a:before {
   &:extend(.fa);
   .fa(twitter);
-  .fa-size(4em);
 }
 ```
-####4. Align
+####3. Align
+CodePen · http://codepen.io/dnomak/pen/NPprqz
 ```less
-// top, middle, bottom
 .fa {
   .fa();
+  .fa-size(2em);
 }
 ul li:first-child a:before {
   &:extend(.fa);
@@ -177,7 +186,9 @@ ul li:last-child a:before {
   .fa-align(bottom);
 }
 ```
-#### 5. Rotated
+
+####4. Rotated
+CodePen · http://codepen.io/dnomak/pen/JoWKYG
 ```less
 .fa {
   .fa();
@@ -193,9 +204,10 @@ ul li:last-child a:before {
   .fa-rotate(180deg);
 }
 ```
-####6. Flipped
+
+####5. Flipped
+CodePen · http://codepen.io/dnomak/pen/vExKNm
 ```less
-// horizontal, vertical
 .fa {
   .fa();
 }
@@ -210,7 +222,9 @@ ul li:last-child a:before {
   .fa-flip(vertical);
 }
 ```
-####7. Spin
+
+####6. Spin
+CodePen · http://codepen.io/dnomak/pen/myWEeM
 ```less
 .fa {
   .fa();
@@ -218,101 +232,11 @@ ul li:last-child a:before {
 ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
-  .fa-spin(2s);
+  .fa-spin(1s);
 }
 ul li:last-child a:before {
   &:extend(.fa);
   .fa(twitter);
-  .fa-spin(4s);
+  .fa-spin(5s);
 }
-```
-
-## Using Stylus
-```html
-<ul>
-  <li><a href="#">Github</a></li>
-  <li><a href="#">Twitter</a></li>
-</ul>
-```
-####1. Import
-```
-@import "flexible-fa"
-```
-####2. Icon
-```
-.fa
-  fa()
-ul li:first-child a:before
-  @extend .fa
-  fa(github)
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-```
-#### 3. Size
-```
-.fa
-  fa()
-ul li:fist-child a:before
-  @extend .fa
-  fa(github)
-  fa-size(2em)
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-  fa-size(4em)
-```
-####4. Align
-```
-// top, middle, bottom
-.fa
-  fa()
-ul li:fist-child a:before
-  @extend .fa
-  fa(github)
-  fa-align(top)
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-  fa-align(bottom)
-```
-#### 5. Rotated
-```
-.fa
-  fa()
-ul li:fist-child a:before
-  @extend .fa
-  fa(github)
-  fa-rotate(90deg);
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-  fa-rotate(180deg);
-```
-####6. Flipped
-```
-// horizontal, vertical
-.fa
-  fa()
-ul li:fist-child a:before
-  @extend .fa
-  fa(github)
-  fa-flip(horizontal);
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-  fa-flip(vertical);
-```
-####7. Spin
-```
-.fa
-  fa()
-ul li:fist-child a:before
-  @extend .fa
-  fa(github)
-  fa-spin(2s);
-ul li:last-child a:before
-  @extend .fa
-  fa(twitter)
-  fa-spin(4s);
 ```
