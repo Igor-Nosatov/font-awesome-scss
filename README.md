@@ -1,11 +1,11 @@
-#flexible-fa
+#Flexible Font Awesome
 Flexible Font Awesome by @dnomak · http://dnomak.com
 
 ## Using Sass
 
 ####Import
 ```scss
-@import "flexible-fa";
+@import "flexiblefa";
 ```
 
 ####Html
@@ -125,7 +125,7 @@ ul li:last-child a:before {
 
 ####Import
 ```less
-@import "flexible-fa.less";
+@import "flexiblefa.less";
 ```
 
 ####Html
