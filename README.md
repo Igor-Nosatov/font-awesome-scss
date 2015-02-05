@@ -31,6 +31,7 @@ ul li:last-child a:before {
   @include fa(twitter);
 }
 ```
+
 #### 2. Size
 CodePen · http://codepen.io/dnomak/pen/ByWKYR
 ```scss
@@ -41,14 +42,52 @@ CodePen · http://codepen.io/dnomak/pen/ByWKYR
 ul li:first-child a:before {
   @extend %fa;
   @include fa(github);
-
 }
 ul li:last-child a:before {
   @extend %fa;
   @include fa(twitter);
 }
 ```
-####3. Align
+
+#### 3. Left
+CodePen · http://codepen.io/dnomak/pen/QwONgX
+```scss
+%fa {
+  @include fa();
+  @include fa-size(2em);
+}
+ul li:first-child a:after {
+  @extend %fa;
+  @include fa(github);
+  @include fa-left(10px);
+}
+ul li:last-child a:after {
+  @extend %fa;
+  @include fa(twitter);
+  @include fa-left(20px);
+}
+```
+
+#### 4. Right
+CodePen · http://codepen.io/dnomak/pen/ZYaWJb
+```scss
+%fa {
+  @include fa();
+  @include fa-size(2em);
+}
+ul li:first-child a:before {
+  @extend %fa;
+  @include fa(github);
+  @include fa-right(10px);
+}
+ul li:last-child a:before {
+  @extend %fa;
+  @include fa(twitter);
+  @include fa-right(20px);
+}
+```
+
+####5. Align
 CodePen · http://codepen.io/dnomak/pen/RNpaMR
 ```scss
 %fa {
@@ -67,7 +106,7 @@ ul li:last-child a:before {
 }
 ```
 
-####4. Rotated
+####6. Rotated
 CodePen · http://codepen.io/dnomak/pen/pveyLK
 ```scss
 %fa {
@@ -85,7 +124,7 @@ ul li:last-child a:before {
 }
 ```
 
-####5. Flipped
+####7. Flipped
 CodePen · http://codepen.io/dnomak/pen/JoWXBP
 ```scss
 %fa {
@@ -103,7 +142,7 @@ ul li:last-child a:before {
 }
 ```
 
-####6. Spin
+####8. Spin
 CodePen · http://codepen.io/dnomak/pen/QwpNBm
 ```scss
 %fa {
@@ -151,6 +190,7 @@ ul li:last-child a:before {
   .fa(twitter);
 }
 ```
+
 #### 2. Size
 CodePen · http://codepen.io/dnomak/pen/OPpXVz
 ```less
@@ -161,14 +201,52 @@ CodePen · http://codepen.io/dnomak/pen/OPpXVz
 ul li:first-child a:before {
   &:extend(.fa);
   .fa(github);
-
 }
 ul li:last-child a:before {
   &:extend(.fa);
   .fa(twitter);
 }
 ```
-####3. Align
+
+#### 3. Left
+CodePen · http://codepen.io/dnomak/pen/xbPVrq
+```less
+.fa {
+  .fa();
+  .fa-size(2em);
+}
+ul li:first-child a:after {
+  &:extend(.fa);
+  .fa(github);
+  .fa-left(10px);
+}
+ul li:last-child a:after {
+  &:extend(.fa);
+  .fa(twitter);
+  .fa-left(20px);
+}
+```
+
+#### 4. Right
+CodePen · http://codepen.io/dnomak/pen/JoOXJN
+```less
+.fa {
+  .fa();
+  .fa-size(2em);
+}
+ul li:first-child a:before {
+  &:extend(.fa);
+  .fa(github);
+  .fa-right(10px);
+}
+ul li:last-child a:before {
+  &:extend(.fa);
+  .fa(twitter);
+  .fa-right(20px);
+}
+```
+
+####5. Align
 CodePen · http://codepen.io/dnomak/pen/NPprqz
 ```less
 .fa {
@@ -187,7 +265,7 @@ ul li:last-child a:before {
 }
 ```
 
-####4. Rotated
+####6. Rotated
 CodePen · http://codepen.io/dnomak/pen/JoWKYG
 ```less
 .fa {
@@ -205,7 +283,7 @@ ul li:last-child a:before {
 }
 ```
 
-####5. Flipped
+####7. Flipped
 CodePen · http://codepen.io/dnomak/pen/vExKNm
 ```less
 .fa {
@@ -223,7 +301,7 @@ ul li:last-child a:before {
 }
 ```
 
-####6. Spin
+####8. Spin
 CodePen · http://codepen.io/dnomak/pen/myWEeM
 ```less
 .fa {
