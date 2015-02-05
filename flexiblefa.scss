@@ -1,5 +1,5 @@
 //
-// Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+// Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
 // License - http://fontawesome.io/license
 //
 // Flexible Font Awesome by @dnomak - http://dnomak.com
@@ -10,8 +10,8 @@
 
   @font-face {
     font-family: 'FontAwesome';
-    src: url('fonts/fontawesome-webfont.eot?v=4.2.0');
-    src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+    src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -499,6 +499,9 @@
       }
       @else if $icon == twitter {
         content: "\f099";
+      }
+      @else if $icon == facebook-f {
+        content: "\f09a";
       }
       @else if $icon == facebook {
         content: "\f09a";
@@ -1220,6 +1223,9 @@
       @else if $icon == gittip {
         content: "\f184";
       }
+      @else if $icon == gratipay {
+        content: "\f184";
+      }
       @else if $icon == sun-o {
         content: "\f185";
       }
@@ -1526,6 +1532,9 @@
       @else if $icon == history {
         content: "\f1da";
       }
+      @else if $icon == genderless {
+        content: "\f1db";
+      }
       @else if $icon == circle-thin {
         content: "\f1db";
       }
@@ -1675,6 +1684,129 @@
       }
       @else if $icon == meanpath {
         content: "\f20c";
+      }
+      @else if $icon == buysellads {
+        content: "\f20d";
+      }
+      @else if $icon == connectdevelop {
+        content: "\f20e";
+      }
+      @else if $icon == dashcube {
+        content: "\f210";
+      }
+      @else if $icon == forumbee {
+        content: "\f211";
+      }
+      @else if $icon == leanpub {
+        content: "\f212";
+      }
+      @else if $icon == sellsy {
+        content: "\f213";
+      }
+      @else if $icon == shirtsinbulk {
+        content: "\f214";
+      }
+      @else if $icon == simplybuilt {
+        content: "\f215";
+      }
+      @else if $icon == skyatlas {
+        content: "\f216";
+      }
+      @else if $icon == cart-plus {
+        content: "\f217";
+      }
+      @else if $icon == cart-arrow-down {
+        content: "\f218";
+      }
+      @else if $icon == diamond {
+        content: "\f219";
+      }
+      @else if $icon == ship {
+        content: "\f21a";
+      }
+      @else if $icon == user-secret {
+        content: "\f21b";
+      }
+      @else if $icon == motorcycle {
+        content: "\f21c";
+      }
+      @else if $icon == street-view {
+        content: "\f21d";
+      }
+      @else if $icon == heartbeat {
+        content: "\f21e";
+      }
+      @else if $icon == venus {
+        content: "\f221";
+      }
+      @else if $icon == mars {
+        content: "\f222";
+      }
+      @else if $icon == mercury {
+        content: "\f223";
+      }
+      @else if $icon == transgender {
+        content: "\f224";
+      }
+      @else if $icon == transgender-alt {
+        content: "\f225";
+      }
+      @else if $icon == venus-double {
+        content: "\f226";
+      }
+      @else if $icon == mars-double {
+        content: "\f227";
+      }
+      @else if $icon == venus-mars {
+        content: "\f228";
+      }
+      @else if $icon == mars-stroke {
+        content: "\f229";
+      }
+      @else if $icon == mars-stroke-v {
+        content: "\f22a";
+      }
+      @else if $icon == mars-stroke-h {
+        content: "\f22b";
+      }
+      @else if $icon == neuter {
+        content: "\f22c";
+      }
+      @else if $icon == facebook-official {
+        content: "\f230";
+      }
+      @else if $icon == pinterest-p {
+        content: "\f231";
+      }
+      @else if $icon == whatsapp {
+        content: "\f232";
+      }
+      @else if $icon == server {
+        content: "\f233";
+      }
+      @else if $icon == user-plus {
+        content: "\f234";
+      }
+      @else if $icon == user-times {
+        content: "\f235";
+      }
+      @else if $icon == hotel {
+        content: "\f236";
+      }
+      @else if $icon == bed {
+        content: "\f236";
+      }
+      @else if $icon == viacoin {
+        content: "\f237";
+      }
+      @else if $icon == train {
+        content: "\f238";
+      }
+      @else if $icon == subway {
+        content: "\f239";
+      }
+      @else if $icon == medium {
+        content: "\f23a";
       }
     }
   }
