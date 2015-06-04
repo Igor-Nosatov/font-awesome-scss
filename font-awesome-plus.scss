@@ -1817,6 +1817,12 @@
     font-size: $size;
   }
 
+// Color
+
+  @mixin fa-color($color) {
+    color: $color;
+  }
+
 // Left
 
   @mixin fa-left($left) {
