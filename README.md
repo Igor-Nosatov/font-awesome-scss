@@ -20,7 +20,7 @@ $ bower install --save flexiblegs-sass-plus
 
 ####1. Icon
 CodePen · http://codepen.io/dnomak/pen/EaWKmr
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -31,7 +31,7 @@ ul li:last-child a:before
 
 #### 2. Size
 CodePen · http://codepen.io/dnomak/pen/ByWKYR
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -44,7 +44,7 @@ ul li:last-child a:before
 
 #### 3. Left
 CodePen · http://codepen.io/dnomak/pen/QwONgX
-```scss
+```sass
 ul li:first-child a:after
   +fa
   +fa(github)
@@ -59,7 +59,7 @@ ul li:last-child a:after
 
 #### 4. Right
 CodePen · http://codepen.io/dnomak/pen/ZYaWJb
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -74,7 +74,7 @@ ul li:last-child a:before
 
 ####5. Align
 CodePen · http://codepen.io/dnomak/pen/RNpaMR
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -89,7 +89,7 @@ ul li:last-child a:before
 
 ####6. Rotated
 CodePen · http://codepen.io/dnomak/pen/pveyLK
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -102,7 +102,7 @@ ul li:last-child a:before
 
 ####7. Flipped
 CodePen · http://codepen.io/dnomak/pen/JoWXBP
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
@@ -115,7 +115,7 @@ ul li:last-child a:before
 
 ####8. Spin
 CodePen · http://codepen.io/dnomak/pen/QwpNBm
-```scss
+```sass
 ul li:first-child a:before
   +fa
   +fa(github)
