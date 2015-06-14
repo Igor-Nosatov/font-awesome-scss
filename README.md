@@ -74,10 +74,12 @@ CodePen · [http://codepen.io/dnomak/pen/RNpaMR](http://codepen.io/dnomak/pen/RN
 ul li:first-child a:before
   +fa
   +fa(github)
+  +fa-size(2em)
   +fa-align(top)
 ul li:last-child a:before
   +fa
   +fa(twitter)
+  +fa-size(2em)
   +fa-align(bottom)
 ```
 
