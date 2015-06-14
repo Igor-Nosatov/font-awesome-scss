@@ -48,12 +48,10 @@ CodePen · http://codepen.io/dnomak/pen/QwONgX
 ul li:first-child a:after
   +fa
   +fa(github)
-  +fa-size(2em)
   +fa-left(10px)
 ul li:last-child a:after
   +fa
   +fa(twitter)
-  +fa-size(2em)
   +fa-left(20px)
 ```
 
@@ -63,12 +61,10 @@ CodePen · http://codepen.io/dnomak/pen/ZYaWJb
 ul li:first-child a:before
   +fa
   +fa(github)
-  +fa-size(2em)
   +fa-right(10px)
 ul li:last-child a:before
   +fa
   +fa(twitter)
-  +fa-size(2em)
   +fa-right(20px)
 ```
 
@@ -78,12 +74,10 @@ CodePen · http://codepen.io/dnomak/pen/RNpaMR
 ul li:first-child a:before
   +fa
   +fa(github)
-  +fa-size(2em)
   +fa-align(top)
 ul li:last-child a:before
   +fa
   +fa(twitter)
-  +fa-size(2em)
   +fa-align(bottom)
 ```
 
