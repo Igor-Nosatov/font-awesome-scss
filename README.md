@@ -5,7 +5,7 @@ Font Awesome Sass Plus
 
 ####[Bower](http://bower.io)
 ```
-$ bower install --save flexiblegs-sass-plus
+$ bower install --save fa-sass-plus
 ```
 
 ##Using
