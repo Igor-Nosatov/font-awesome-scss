@@ -19,7 +19,7 @@ $ bower install --save fa-sass-plus
 ```
 
 ####1. Icon
-CodePen · http://codepen.io/dnomak/pen/EaWKmr
+CodePen · [http://codepen.io/dnomak/pen/EaWKmr](http://codepen.io/dnomak/pen/EaWKmr?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -30,7 +30,7 @@ ul li:last-child a:before
 ```
 
 #### 2. Size
-CodePen · http://codepen.io/dnomak/pen/ByWKYR
+CodePen · [http://codepen.io/dnomak/pen/ByWKYR](http://codepen.io/dnomak/pen/ByWKYR?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -43,7 +43,7 @@ ul li:last-child a:before
 ```
 
 #### 3. Left
-CodePen · http://codepen.io/dnomak/pen/QwONgX
+CodePen · [http://codepen.io/dnomak/pen/QwONgX](http://codepen.io/dnomak/pen/QwONgX?editors=110)
 ```sass
 ul li:first-child a:after
   +fa
@@ -56,7 +56,7 @@ ul li:last-child a:after
 ```
 
 #### 4. Right
-CodePen · http://codepen.io/dnomak/pen/ZYaWJb
+CodePen · [http://codepen.io/dnomak/pen/ZYaWJb](http://codepen.io/dnomak/pen/ZYaWJb?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -69,7 +69,7 @@ ul li:last-child a:before
 ```
 
 ####5. Align
-CodePen · http://codepen.io/dnomak/pen/RNpaMR
+CodePen · [http://codepen.io/dnomak/pen/RNpaMR](http://codepen.io/dnomak/pen/RNpaMR?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -82,7 +82,7 @@ ul li:last-child a:before
 ```
 
 ####6. Rotated
-CodePen · http://codepen.io/dnomak/pen/pveyLK
+CodePen · [http://codepen.io/dnomak/pen/pveyLK](http://codepen.io/dnomak/pen/pveyLK?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -95,7 +95,7 @@ ul li:last-child a:before
 ```
 
 ####7. Flipped
-CodePen · http://codepen.io/dnomak/pen/JoWXBP
+CodePen · [http://codepen.io/dnomak/pen/JoWXBP](http://codepen.io/dnomak/pen/JoWXBP?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
@@ -108,7 +108,7 @@ ul li:last-child a:before
 ```
 
 ####8. Spin
-CodePen · http://codepen.io/dnomak/pen/QwpNBm
+CodePen · [http://codepen.io/dnomak/pen/QwpNBm](http://codepen.io/dnomak/pen/QwpNBm?editors=110)
 ```sass
 ul li:first-child a:before
   +fa
