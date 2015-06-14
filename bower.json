@@ -1,0 +1,21 @@
+{
+  "name": "fa-sass-plus",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dnomak/fa-sass-plus",
+  "authors": [
+    "@dnomak"
+  ],
+  "description": "Font Awesome Sass Plus",
+  "main": "_fontawesome.sass",
+  "keywords": [
+    "font",
+    "fontawesome"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "README.md"
+  ]
+}
