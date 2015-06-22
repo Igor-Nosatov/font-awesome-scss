@@ -1,5 +1,5 @@
 #fa-scss-plus
-Font Awesome scss Plus
+Font Awesome Scss Plus
 
 ##Install
 
