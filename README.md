@@ -1,11 +1,11 @@
-#fa-sass-plus
-Font Awesome Sass Plus
+#fa-scss-plus
+Font Awesome scss Plus
 
 ##Install
 
 ####[Bower](http://bower.io)
 ```
-$ bower install --save fa-sass-plus
+$ bower install --save fa-scss-plus
 ```
 
 ##Using
@@ -20,104 +20,121 @@ $ bower install --save fa-sass-plus
 
 ####1. Icon
 CodePen · [http://codepen.io/dnomak/pen/EaWKmr](http://codepen.io/dnomak/pen/EaWKmr?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+}
 ```
 
 #### 2. Size
 CodePen · [http://codepen.io/dnomak/pen/ByWKYR](http://codepen.io/dnomak/pen/ByWKYR?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-size(2em)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-size(2em)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-size(2em);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+  @include fa-size(2em);
+}
 ```
 
 #### 3. Left
 CodePen · [http://codepen.io/dnomak/pen/QwONgX](http://codepen.io/dnomak/pen/QwONgX?editors=110)
-```sass
-ul li:first-child a:after
-  +fa
-  +fa(github)
-  +fa-left(10px)
-ul li:last-child a:after
-  +fa
-  +fa(twitter)
-  +fa-left(20px)
+```scss
+ul li:first-child a:after {
+  @include fa;
+  @include fa(github);
+  @include fa-left(10px);
+}
+ul li:last-child a:after {
+  @include fa;
+  @include fa(twitter);
+  @include fa-left(20px);
+}
 ```
 
 #### 4. Right
 CodePen · [http://codepen.io/dnomak/pen/ZYaWJb](http://codepen.io/dnomak/pen/ZYaWJb?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-right(10px)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-right(20px)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-right(10px);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+  @include fa-right(20px);
+}
 ```
 
 ####5. Align
 CodePen · [http://codepen.io/dnomak/pen/RNpaMR](http://codepen.io/dnomak/pen/RNpaMR?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-size(2em)
-  +fa-align(top)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-size(2em)
-  +fa-align(bottom)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-size(2em);
+  @include fa-align(top);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+  @include fa-size(2em);
+  @include fa-align(bottom);
+}
 ```
 
 ####6. Rotated
 CodePen · [http://codepen.io/dnomak/pen/pveyLK](http://codepen.io/dnomak/pen/pveyLK?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-rotate(90deg)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-rotate(180deg)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-rotate(90deg);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+  @include fa-rotate(180deg);
+}
 ```
 
 ####7. Flipped
 CodePen · [http://codepen.io/dnomak/pen/JoWXBP](http://codepen.io/dnomak/pen/JoWXBP?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-flip(horizontal)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-flip(vertical)
+```scss
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-flip(horizontal);
+}
+ul li:last-child a:before {
+  @include fa;
+  @include fa(twitter);
+  @include fa-flip(vertical);
+}
 ```
 
 ####8. Spin
 CodePen · [http://codepen.io/dnomak/pen/QwpNBm](http://codepen.io/dnomak/pen/QwpNBm?editors=110)
-```sass
-ul li:first-child a:before
-  +fa
-  +fa(github)
-  +fa-spin(1s)
-ul li:last-child a:before
-  +fa
-  +fa(twitter)
-  +fa-spin(5s)
+```scss
+@include fa-spin;
+ul li:first-child a:before {
+  @include fa;
+  @include fa(github);
+  @include fa-spin(1s);
+}
+ul li:last-child a:before{
+  @include fa;
+  @include fa(twitter);
+  @include fa-spin(5s);
+}
 ```

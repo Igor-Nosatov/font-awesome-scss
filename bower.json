@@ -1,12 +1,12 @@
 {
-  "name": "fa-sass-plus",
-  "version": "1.0.1",
-  "homepage": "https://github.com/dnomak/fa-sass-plus",
+  "name": "fa-scss-plus",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dnomak/fa-scss-plus",
   "authors": [
     "@dnomak"
   ],
-  "description": "Font Awesome Sass Plus",
-  "main": "_fontawesome.sass",
+  "description": "Font Awesome Scss Plus",
+  "main": "_fontawesome.scss",
   "keywords": [
     "font",
     "fontawesome"
