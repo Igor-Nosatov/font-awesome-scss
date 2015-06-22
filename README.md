@@ -10,7 +10,7 @@ $ bower install --save fa-scss-plus
 
 ##Using
 
-####Html
+###Html
 ```html
 <ul>
   <li><a href="#">Github</a></li>
@@ -18,7 +18,7 @@ $ bower install --save fa-scss-plus
 </ul>
 ```
 
-####1. Icon
+###Icon
 CodePen · [http://codepen.io/dnomak/pen/EaWKmr](http://codepen.io/dnomak/pen/EaWKmr?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -31,7 +31,7 @@ ul li:last-child a:before {
 }
 ```
 
-#### 2. Size
+###Size
 CodePen · [http://codepen.io/dnomak/pen/ByWKYR](http://codepen.io/dnomak/pen/ByWKYR?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -46,7 +46,7 @@ ul li:last-child a:before {
 }
 ```
 
-#### 3. Left
+###Left
 CodePen · [http://codepen.io/dnomak/pen/QwONgX](http://codepen.io/dnomak/pen/QwONgX?editors=110)
 ```scss
 ul li:first-child a:after {
@@ -61,7 +61,7 @@ ul li:last-child a:after {
 }
 ```
 
-#### 4. Right
+###Right
 CodePen · [http://codepen.io/dnomak/pen/ZYaWJb](http://codepen.io/dnomak/pen/ZYaWJb?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -76,7 +76,7 @@ ul li:last-child a:before {
 }
 ```
 
-####5. Align
+###Align
 CodePen · [http://codepen.io/dnomak/pen/RNpaMR](http://codepen.io/dnomak/pen/RNpaMR?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -93,7 +93,7 @@ ul li:last-child a:before {
 }
 ```
 
-####6. Rotated
+###Rotated
 CodePen · [http://codepen.io/dnomak/pen/pveyLK](http://codepen.io/dnomak/pen/pveyLK?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -108,7 +108,7 @@ ul li:last-child a:before {
 }
 ```
 
-####7. Flipped
+###Flipped
 CodePen · [http://codepen.io/dnomak/pen/JoWXBP](http://codepen.io/dnomak/pen/JoWXBP?editors=110)
 ```scss
 ul li:first-child a:before {
@@ -123,7 +123,7 @@ ul li:last-child a:before {
 }
 ```
 
-####8. Spin
+###Spin
 CodePen · [http://codepen.io/dnomak/pen/QwpNBm](http://codepen.io/dnomak/pen/QwpNBm?editors=110)
 ```scss
 @include fa-spin;
