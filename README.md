@@ -18,7 +18,6 @@ Font Awesome Scss Plus
 ```
 
 ### Icon
-CodePen · [http://codepen.io/dnomak/pen/EaWKmr](http://codepen.io/dnomak/pen/EaWKmr?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -31,7 +30,6 @@ ul li:last-child a:before {
 ```
 
 ### Size
-CodePen · [http://codepen.io/dnomak/pen/ByWKYR](http://codepen.io/dnomak/pen/ByWKYR?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -46,7 +44,6 @@ ul li:last-child a:before {
 ```
 
 ### Left
-CodePen · [http://codepen.io/dnomak/pen/QwONgX](http://codepen.io/dnomak/pen/QwONgX?editors=110)
 ```scss
 ul li:first-child a:after {
   @include fa;
@@ -61,7 +58,6 @@ ul li:last-child a:after {
 ```
 
 ### Right
-CodePen · [http://codepen.io/dnomak/pen/ZYaWJb](http://codepen.io/dnomak/pen/ZYaWJb?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -76,7 +72,6 @@ ul li:last-child a:before {
 ```
 
 ### Align
-CodePen · [http://codepen.io/dnomak/pen/RNpaMR](http://codepen.io/dnomak/pen/RNpaMR?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -93,7 +88,6 @@ ul li:last-child a:before {
 ```
 
 ### Rotated
-CodePen · [http://codepen.io/dnomak/pen/pveyLK](http://codepen.io/dnomak/pen/pveyLK?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -108,7 +102,6 @@ ul li:last-child a:before {
 ```
 
 ### Flipped
-CodePen · [http://codepen.io/dnomak/pen/JoWXBP](http://codepen.io/dnomak/pen/JoWXBP?editors=110)
 ```scss
 ul li:first-child a:before {
   @include fa;
@@ -123,7 +116,6 @@ ul li:last-child a:before {
 ```
 
 ### Spin
-CodePen · [http://codepen.io/dnomak/pen/QwpNBm](http://codepen.io/dnomak/pen/QwpNBm?editors=110)
 ```scss
 @include fa-spin;
 ul li:first-child a:before {
