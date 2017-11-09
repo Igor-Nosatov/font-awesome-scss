@@ -118,6 +118,7 @@ ul li:last-child a:before {
 ### Spin
 ```scss
 @include fa-spin;
+
 ul li:first-child a:before {
   @include fa;
   @include fa(github);

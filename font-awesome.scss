@@ -6,8 +6,6 @@
   font-style: normal;
 }
 
-// icons
-// @include fa;
 @mixin fa($icon: null) {
   @if $icon == null {
     display: inline-block;
@@ -1801,46 +1799,32 @@
   }
 }
 
-// size
-// @include size(size);
 @mixin fa-size($size) {
   font-size: $size;
 }
 
-// color
-// @include color(color);
 @mixin fa-color($color) {
   color: $color;
 }
 
-// left
-// @include left(left);
 @mixin fa-left($left) {
   padding-left: $left;
 }
 
-// right
-// @include right(right);
 @mixin fa-right($right) {
   padding-right: $right;
 }
 
-// align
-// @include align(align);
 @mixin fa-align($align) {
   vertical-align: $align;
 }
 
-// rotate
-// @include rotate(deg);
 @mixin fa-rotate($rotate) {
   -webkit-transform: rotate($rotate);
   -ms-transform: rotate($rotate);
   transform: rotate($rotate);
 }
 
-// flip
-// @include flip(flip);
 @mixin fa-flip($flip) {
   @if $flip == horizontal {
     -webkit-transform: scale(-1, 1);
@@ -1854,8 +1838,6 @@
   }
 }
 
-// spin
-// @include spin(spin);
 @mixin fa-spin($spin: null) {
   @if $spin == null {
     @-webkit-keyframes fa-spin{
